@@ -1,0 +1,1803 @@
+2019-12-19 14:50:06,588 train 100 [DEBUG][<module>] {'Net': {'enc_type': 'mobilenetv2', 'dec_type': 'maspp', 'output_stride': 20, 'output_channels': 10}, 'Data': {'target_size': '(256,256)'}, 'Train': {'max_epoch': 200000, 'batch_size': 10, 'fp16': True, 'resume': True, 'pretrained_path': False, 'amp': True, 'parallel': True}, 'Loss': {'loss_type': 'Lovasz', 'ignore_index': 10}, 'Optimizer': {'mode': 'sgd', 'base_lr': 0.007, 't_max': 30}}
+2019-12-19 14:50:06,588 train 101 [INFO][<module>] Device: cuda:0
+2019-12-19 14:50:06,588 train 102 [INFO][<module>] Max Epoch: 200000
+2019-12-19 14:50:08,048 train 155 [INFO][<module>] Apply fp16
+2019-12-19 14:50:08,049 train 160 [INFO][<module>] Resume from ../model/bdd100k_deeplabv3p_mobilenetv2_total/model_tmp.pth
+2019-12-19 14:50:08,082 train 171 [INFO][<module>] Epoch: 1
+2019-12-19 14:50:08,082 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-19 14:57:52,791 train 220 [INFO][<module>] train loss: 0.28107753952946324
+2019-12-19 14:57:52,792 train 221 [INFO][<module>] train iou: 0.6301099296667584
+2019-12-19 14:57:52,986 train 171 [INFO][<module>] Epoch: 2
+2019-12-19 14:57:52,986 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-19 15:05:38,033 train 220 [INFO][<module>] train loss: 0.2821686467538378
+2019-12-19 15:05:38,034 train 221 [INFO][<module>] train iou: 0.6291797697994267
+2019-12-19 15:05:38,265 train 171 [INFO][<module>] Epoch: 3
+2019-12-19 15:05:38,265 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-19 15:13:21,828 train 220 [INFO][<module>] train loss: 0.28320880319534325
+2019-12-19 15:13:21,828 train 221 [INFO][<module>] train iou: 0.6274693114870163
+2019-12-19 15:13:22,017 train 171 [INFO][<module>] Epoch: 4
+2019-12-19 15:13:22,017 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-19 15:21:07,204 train 220 [INFO][<module>] train loss: 0.2836475662811838
+2019-12-19 15:21:07,204 train 221 [INFO][<module>] train iou: 0.6268369146218415
+2019-12-19 15:21:07,397 train 171 [INFO][<module>] Epoch: 5
+2019-12-19 15:21:07,397 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-19 15:28:49,891 train 220 [INFO][<module>] train loss: 0.2803538016197256
+2019-12-19 15:28:49,891 train 221 [INFO][<module>] train iou: 0.6311653191865361
+2019-12-19 15:28:50,077 train 171 [INFO][<module>] Epoch: 6
+2019-12-19 15:28:50,077 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-19 15:36:31,399 train 220 [INFO][<module>] train loss: 0.2799330149034057
+2019-12-19 15:36:31,400 train 221 [INFO][<module>] train iou: 0.6320228425104243
+2019-12-19 15:36:31,586 train 171 [INFO][<module>] Epoch: 7
+2019-12-19 15:36:31,586 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-19 15:44:12,581 train 220 [INFO][<module>] train loss: 0.2787972547690876
+2019-12-19 15:44:12,581 train 221 [INFO][<module>] train iou: 0.6331796684926343
+2019-12-19 15:44:12,762 train 171 [INFO][<module>] Epoch: 8
+2019-12-19 15:44:12,762 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-19 15:51:53,061 train 220 [INFO][<module>] train loss: 0.2777418310594077
+2019-12-19 15:51:53,061 train 221 [INFO][<module>] train iou: 0.6351379570745042
+2019-12-19 15:51:53,291 train 171 [INFO][<module>] Epoch: 9
+2019-12-19 15:51:53,291 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-19 15:59:34,860 train 220 [INFO][<module>] train loss: 0.27581223840464647
+2019-12-19 15:59:34,860 train 221 [INFO][<module>] train iou: 0.6375225541006351
+2019-12-19 15:59:35,039 train 171 [INFO][<module>] Epoch: 10
+2019-12-19 15:59:35,039 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-19 16:07:17,439 train 220 [INFO][<module>] train loss: 0.274552009222082
+2019-12-19 16:07:17,440 train 221 [INFO][<module>] train iou: 0.6393058179888711
+2019-12-19 16:07:17,621 train 171 [INFO][<module>] Epoch: 11
+2019-12-19 16:07:17,621 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-19 16:15:02,987 train 220 [INFO][<module>] train loss: 0.27252213105007456
+2019-12-19 16:15:02,988 train 221 [INFO][<module>] train iou: 0.6424219141503817
+2019-12-19 16:15:03,171 train 171 [INFO][<module>] Epoch: 12
+2019-12-19 16:15:03,171 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-19 16:22:50,538 train 220 [INFO][<module>] train loss: 0.2719159887896644
+2019-12-19 16:22:50,538 train 221 [INFO][<module>] train iou: 0.6428763742676562
+2019-12-19 16:22:50,725 train 171 [INFO][<module>] Epoch: 13
+2019-12-19 16:22:50,726 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-19 16:30:39,273 train 220 [INFO][<module>] train loss: 0.2691222654047237
+2019-12-19 16:30:39,273 train 221 [INFO][<module>] train iou: 0.6473286668435478
+2019-12-19 16:30:39,458 train 171 [INFO][<module>] Epoch: 14
+2019-12-19 16:30:39,458 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-19 16:38:25,811 train 220 [INFO][<module>] train loss: 0.26830617396117057
+2019-12-19 16:38:25,811 train 221 [INFO][<module>] train iou: 0.6484276763472696
+2019-12-19 16:38:26,048 train 171 [INFO][<module>] Epoch: 15
+2019-12-19 16:38:26,049 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-19 16:46:11,924 train 220 [INFO][<module>] train loss: 0.26675875801028626
+2019-12-19 16:46:11,924 train 221 [INFO][<module>] train iou: 0.650648094185163
+2019-12-19 16:46:12,118 train 171 [INFO][<module>] Epoch: 16
+2019-12-19 16:46:12,118 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-19 16:53:59,281 train 220 [INFO][<module>] train loss: 0.2651811898356736
+2019-12-19 16:53:59,281 train 221 [INFO][<module>] train iou: 0.6534585770372253
+2019-12-19 16:53:59,468 train 171 [INFO][<module>] Epoch: 17
+2019-12-19 16:53:59,468 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-19 17:01:45,788 train 220 [INFO][<module>] train loss: 0.2643611522435339
+2019-12-19 17:01:45,789 train 221 [INFO][<module>] train iou: 0.6544802712980666
+2019-12-19 17:01:45,979 train 171 [INFO][<module>] Epoch: 18
+2019-12-19 17:01:45,979 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-19 17:09:33,725 train 220 [INFO][<module>] train loss: 0.2639280100061436
+2019-12-19 17:09:33,725 train 221 [INFO][<module>] train iou: 0.655618560376546
+2019-12-19 17:09:33,922 train 171 [INFO][<module>] Epoch: 19
+2019-12-19 17:09:33,922 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-19 17:17:20,269 train 220 [INFO][<module>] train loss: 0.2618130724438112
+2019-12-19 17:17:20,269 train 221 [INFO][<module>] train iou: 0.6582069715546413
+2019-12-19 17:17:20,463 train 171 [INFO][<module>] Epoch: 20
+2019-12-19 17:17:20,463 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-19 17:25:07,477 train 220 [INFO][<module>] train loss: 0.2612483640411486
+2019-12-19 17:25:07,477 train 221 [INFO][<module>] train iou: 0.659192832802825
+2019-12-19 17:25:07,719 train 171 [INFO][<module>] Epoch: 21
+2019-12-19 17:25:07,719 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-19 17:32:57,023 train 220 [INFO][<module>] train loss: 0.26022757880816155
+2019-12-19 17:32:57,023 train 221 [INFO][<module>] train iou: 0.6611093933815291
+2019-12-19 17:32:57,200 train 171 [INFO][<module>] Epoch: 22
+2019-12-19 17:32:57,200 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-19 17:40:47,474 train 220 [INFO][<module>] train loss: 0.2594729871159852
+2019-12-19 17:40:47,474 train 221 [INFO][<module>] train iou: 0.662173662056109
+2019-12-19 17:40:47,659 train 171 [INFO][<module>] Epoch: 23
+2019-12-19 17:40:47,659 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-19 17:48:34,083 train 220 [INFO][<module>] train loss: 0.25931455681621024
+2019-12-19 17:48:34,083 train 221 [INFO][<module>] train iou: 0.6626091757470739
+2019-12-19 17:48:34,266 train 171 [INFO][<module>] Epoch: 24
+2019-12-19 17:48:34,266 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-19 17:56:20,136 train 220 [INFO][<module>] train loss: 0.25868950086811976
+2019-12-19 17:56:20,136 train 221 [INFO][<module>] train iou: 0.6635564209170354
+2019-12-19 17:56:20,325 train 171 [INFO][<module>] Epoch: 25
+2019-12-19 17:56:20,325 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-19 18:04:07,685 train 220 [INFO][<module>] train loss: 0.2586905856425513
+2019-12-19 18:04:07,686 train 221 [INFO][<module>] train iou: 0.6637752413053701
+2019-12-19 18:04:07,863 train 171 [INFO][<module>] Epoch: 26
+2019-12-19 18:04:07,863 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-19 18:11:54,172 train 220 [INFO][<module>] train loss: 0.25789552861793275
+2019-12-19 18:11:54,172 train 221 [INFO][<module>] train iou: 0.6650728089241342
+2019-12-19 18:11:54,403 train 171 [INFO][<module>] Epoch: 27
+2019-12-19 18:11:54,403 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-19 18:19:40,724 train 220 [INFO][<module>] train loss: 0.25777057535720593
+2019-12-19 18:19:40,724 train 221 [INFO][<module>] train iou: 0.6653516566813041
+2019-12-19 18:19:40,913 train 171 [INFO][<module>] Epoch: 28
+2019-12-19 18:19:40,913 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-19 18:27:28,760 train 220 [INFO][<module>] train loss: 0.25735585762796176
+2019-12-19 18:27:28,761 train 221 [INFO][<module>] train iou: 0.6661436884133225
+2019-12-19 18:27:28,947 train 171 [INFO][<module>] Epoch: 29
+2019-12-19 18:27:28,947 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-19 18:35:16,344 train 220 [INFO][<module>] train loss: 0.2707904592306927
+2019-12-19 18:35:16,344 train 221 [INFO][<module>] train iou: 0.6458006679749851
+2019-12-19 18:35:16,530 train 171 [INFO][<module>] Epoch: 30
+2019-12-19 18:35:16,530 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-19 18:43:03,240 train 220 [INFO][<module>] train loss: 0.2770193535270113
+2019-12-19 18:43:03,240 train 221 [INFO][<module>] train iou: 0.6369433549653961
+2019-12-19 18:43:03,430 train 171 [INFO][<module>] Epoch: 31
+2019-12-19 18:43:03,430 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-19 18:50:49,880 train 220 [INFO][<module>] train loss: 0.282373916219782
+2019-12-19 18:50:49,880 train 221 [INFO][<module>] train iou: 0.6297608115767577
+2019-12-19 18:50:50,062 train 171 [INFO][<module>] Epoch: 32
+2019-12-19 18:50:50,063 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-19 18:58:38,358 train 220 [INFO][<module>] train loss: 0.28034093283643624
+2019-12-19 18:58:38,358 train 221 [INFO][<module>] train iou: 0.6326919788248143
+2019-12-19 18:58:38,585 train 171 [INFO][<module>] Epoch: 33
+2019-12-19 18:58:38,585 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-19 19:06:25,314 train 220 [INFO][<module>] train loss: 0.2813461007493915
+2019-12-19 19:06:25,314 train 221 [INFO][<module>] train iou: 0.6305822499691519
+2019-12-19 19:06:25,497 train 171 [INFO][<module>] Epoch: 34
+2019-12-19 19:06:25,497 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-19 19:14:11,760 train 220 [INFO][<module>] train loss: 0.2795174161492775
+2019-12-19 19:14:11,760 train 221 [INFO][<module>] train iou: 0.6326835944342224
+2019-12-19 19:14:11,944 train 171 [INFO][<module>] Epoch: 35
+2019-12-19 19:14:11,945 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-19 19:21:58,575 train 220 [INFO][<module>] train loss: 0.27790124207634714
+2019-12-19 19:21:58,576 train 221 [INFO][<module>] train iou: 0.6349656538718134
+2019-12-19 19:21:58,759 train 171 [INFO][<module>] Epoch: 36
+2019-12-19 19:21:58,759 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-19 19:29:46,413 train 220 [INFO][<module>] train loss: 0.2758538049178493
+2019-12-19 19:29:46,413 train 221 [INFO][<module>] train iou: 0.638241681315369
+2019-12-19 19:29:46,605 train 171 [INFO][<module>] Epoch: 37
+2019-12-19 19:29:46,606 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-19 19:37:34,043 train 220 [INFO][<module>] train loss: 0.27492965858191354
+2019-12-19 19:37:34,043 train 221 [INFO][<module>] train iou: 0.638835152661853
+2019-12-19 19:37:34,227 train 171 [INFO][<module>] Epoch: 38
+2019-12-19 19:37:34,227 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-19 19:45:22,712 train 220 [INFO][<module>] train loss: 0.27405667420388874
+2019-12-19 19:45:22,712 train 221 [INFO][<module>] train iou: 0.6401150486844513
+2019-12-19 19:45:22,948 train 171 [INFO][<module>] Epoch: 39
+2019-12-19 19:45:22,948 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-19 19:53:11,261 train 220 [INFO][<module>] train loss: 0.27267007033030194
+2019-12-19 19:53:11,261 train 221 [INFO][<module>] train iou: 0.6422769674456887
+2019-12-19 19:53:11,449 train 171 [INFO][<module>] Epoch: 40
+2019-12-19 19:53:11,450 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-19 20:01:00,138 train 220 [INFO][<module>] train loss: 0.27106928629706606
+2019-12-19 20:01:00,138 train 221 [INFO][<module>] train iou: 0.6439971071247481
+2019-12-19 20:01:00,327 train 171 [INFO][<module>] Epoch: 41
+2019-12-19 20:01:00,327 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-19 20:08:47,011 train 220 [INFO][<module>] train loss: 0.2690928689759187
+2019-12-19 20:08:47,011 train 221 [INFO][<module>] train iou: 0.6469557368620665
+2019-12-19 20:08:47,191 train 171 [INFO][<module>] Epoch: 42
+2019-12-19 20:08:47,191 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-19 20:16:34,197 train 220 [INFO][<module>] train loss: 0.267001057213003
+2019-12-19 20:16:34,198 train 221 [INFO][<module>] train iou: 0.6502439897185778
+2019-12-19 20:16:34,376 train 171 [INFO][<module>] Epoch: 43
+2019-12-19 20:16:34,376 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-19 20:24:20,129 train 220 [INFO][<module>] train loss: 0.26538892867990616
+2019-12-19 20:24:20,129 train 221 [INFO][<module>] train iou: 0.6526743773392374
+2019-12-19 20:24:20,307 train 171 [INFO][<module>] Epoch: 44
+2019-12-19 20:24:20,307 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-19 20:32:07,296 train 220 [INFO][<module>] train loss: 0.26408549746881027
+2019-12-19 20:32:07,296 train 221 [INFO][<module>] train iou: 0.6546304943652316
+2019-12-19 20:32:07,521 train 171 [INFO][<module>] Epoch: 45
+2019-12-19 20:32:07,521 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-19 20:39:55,435 train 220 [INFO][<module>] train loss: 0.26277163203316506
+2019-12-19 20:39:55,435 train 221 [INFO][<module>] train iou: 0.6568617688220387
+2019-12-19 20:39:55,628 train 171 [INFO][<module>] Epoch: 46
+2019-12-19 20:39:55,628 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-19 20:47:41,155 train 220 [INFO][<module>] train loss: 0.26165056941083786
+2019-12-19 20:47:41,155 train 221 [INFO][<module>] train iou: 0.6581980230930061
+2019-12-19 20:47:41,338 train 171 [INFO][<module>] Epoch: 47
+2019-12-19 20:47:41,339 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-19 20:55:27,203 train 220 [INFO][<module>] train loss: 0.26065127004678
+2019-12-19 20:55:27,203 train 221 [INFO][<module>] train iou: 0.6596967331566461
+2019-12-19 20:55:27,390 train 171 [INFO][<module>] Epoch: 48
+2019-12-19 20:55:27,390 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-19 21:03:14,312 train 220 [INFO][<module>] train loss: 0.2596724829589478
+2019-12-19 21:03:14,313 train 221 [INFO][<module>] train iou: 0.6607566399864452
+2019-12-19 21:03:14,493 train 171 [INFO][<module>] Epoch: 49
+2019-12-19 21:03:14,493 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-19 21:11:02,026 train 220 [INFO][<module>] train loss: 0.25830232961611316
+2019-12-19 21:11:02,026 train 221 [INFO][<module>] train iou: 0.6631896412392192
+2019-12-19 21:11:02,208 train 171 [INFO][<module>] Epoch: 50
+2019-12-19 21:11:02,208 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-19 21:18:51,195 train 220 [INFO][<module>] train loss: 0.2575739720453718
+2019-12-19 21:18:51,195 train 221 [INFO][<module>] train iou: 0.6640397298310546
+2019-12-19 21:18:51,427 train 171 [INFO][<module>] Epoch: 51
+2019-12-19 21:18:51,428 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-19 21:26:40,661 train 220 [INFO][<module>] train loss: 0.2567780954067153
+2019-12-19 21:26:40,661 train 221 [INFO][<module>] train iou: 0.6656888111015563
+2019-12-19 21:26:40,845 train 171 [INFO][<module>] Epoch: 52
+2019-12-19 21:26:40,845 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-19 21:34:29,339 train 220 [INFO][<module>] train loss: 0.25629379587743417
+2019-12-19 21:34:29,339 train 221 [INFO][<module>] train iou: 0.6665931775200942
+2019-12-19 21:34:29,524 train 171 [INFO][<module>] Epoch: 53
+2019-12-19 21:34:29,524 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-19 21:42:16,751 train 220 [INFO][<module>] train loss: 0.2551931155350072
+2019-12-19 21:42:16,751 train 221 [INFO][<module>] train iou: 0.6683653301138428
+2019-12-19 21:42:16,943 train 171 [INFO][<module>] Epoch: 54
+2019-12-19 21:42:16,943 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-19 21:50:04,528 train 220 [INFO][<module>] train loss: 0.2552290482553167
+2019-12-19 21:50:04,528 train 221 [INFO][<module>] train iou: 0.6685276628756932
+2019-12-19 21:50:04,713 train 171 [INFO][<module>] Epoch: 55
+2019-12-19 21:50:04,713 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-19 21:57:51,819 train 220 [INFO][<module>] train loss: 0.2550047068583845
+2019-12-19 21:57:51,819 train 221 [INFO][<module>] train iou: 0.6691337386238645
+2019-12-19 21:57:52,005 train 171 [INFO][<module>] Epoch: 56
+2019-12-19 21:57:52,005 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-19 22:05:38,386 train 220 [INFO][<module>] train loss: 0.2551477114961605
+2019-12-19 22:05:38,386 train 221 [INFO][<module>] train iou: 0.668968296568965
+2019-12-19 22:05:38,612 train 171 [INFO][<module>] Epoch: 57
+2019-12-19 22:05:38,613 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-19 22:13:24,604 train 220 [INFO][<module>] train loss: 0.2538556949759172
+2019-12-19 22:13:24,604 train 221 [INFO][<module>] train iou: 0.6702885770599649
+2019-12-19 22:13:24,778 train 171 [INFO][<module>] Epoch: 58
+2019-12-19 22:13:24,778 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-19 22:21:11,518 train 220 [INFO][<module>] train loss: 0.25414033801065955
+2019-12-19 22:21:11,518 train 221 [INFO][<module>] train iou: 0.6705412908037595
+2019-12-19 22:21:11,701 train 171 [INFO][<module>] Epoch: 59
+2019-12-19 22:21:11,701 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-19 22:28:59,239 train 220 [INFO][<module>] train loss: 0.2689304157138272
+2019-12-19 22:28:59,239 train 221 [INFO][<module>] train iou: 0.6483490232736723
+2019-12-19 22:28:59,431 train 171 [INFO][<module>] Epoch: 60
+2019-12-19 22:28:59,431 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-19 22:36:45,798 train 220 [INFO][<module>] train loss: 0.2748094588919521
+2019-12-19 22:36:45,798 train 221 [INFO][<module>] train iou: 0.6401156651581045
+2019-12-19 22:36:45,988 train 171 [INFO][<module>] Epoch: 61
+2019-12-19 22:36:45,988 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-19 22:44:30,713 train 220 [INFO][<module>] train loss: 0.27821336159802446
+2019-12-19 22:44:30,714 train 221 [INFO][<module>] train iou: 0.6354576318362172
+2019-12-19 22:44:30,905 train 171 [INFO][<module>] Epoch: 62
+2019-12-19 22:44:30,905 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-19 22:52:16,474 train 220 [INFO][<module>] train loss: 0.27717819408535554
+2019-12-19 22:52:16,474 train 221 [INFO][<module>] train iou: 0.6366075301218295
+2019-12-19 22:52:16,708 train 171 [INFO][<module>] Epoch: 63
+2019-12-19 22:52:16,708 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-19 23:00:01,919 train 220 [INFO][<module>] train loss: 0.2764065135207642
+2019-12-19 23:00:01,919 train 221 [INFO][<module>] train iou: 0.6378465778276834
+2019-12-19 23:00:02,111 train 171 [INFO][<module>] Epoch: 64
+2019-12-19 23:00:02,111 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-19 23:07:48,626 train 220 [INFO][<module>] train loss: 0.27908811826095836
+2019-12-19 23:07:48,626 train 221 [INFO][<module>] train iou: 0.6341576752996143
+2019-12-19 23:07:48,816 train 171 [INFO][<module>] Epoch: 65
+2019-12-19 23:07:48,816 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-19 23:15:35,734 train 220 [INFO][<module>] train loss: 0.2781998212590362
+2019-12-19 23:15:35,735 train 221 [INFO][<module>] train iou: 0.6351342859443009
+2019-12-19 23:15:35,921 train 171 [INFO][<module>] Epoch: 66
+2019-12-19 23:15:35,921 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-19 23:23:22,375 train 220 [INFO][<module>] train loss: 0.2748807496093339
+2019-12-19 23:23:22,376 train 221 [INFO][<module>] train iou: 0.639302703280842
+2019-12-19 23:23:22,564 train 171 [INFO][<module>] Epoch: 67
+2019-12-19 23:23:22,564 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-19 23:31:09,362 train 220 [INFO][<module>] train loss: 0.2726326657565756
+2019-12-19 23:31:09,363 train 221 [INFO][<module>] train iou: 0.6423224096155734
+2019-12-19 23:31:09,546 train 171 [INFO][<module>] Epoch: 68
+2019-12-19 23:31:09,547 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-19 23:38:56,158 train 220 [INFO][<module>] train loss: 0.2707046608029793
+2019-12-19 23:38:56,159 train 221 [INFO][<module>] train iou: 0.6453405513008459
+2019-12-19 23:38:56,390 train 171 [INFO][<module>] Epoch: 69
+2019-12-19 23:38:56,390 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-19 23:46:41,647 train 220 [INFO][<module>] train loss: 0.2685182967571297
+2019-12-19 23:46:41,647 train 221 [INFO][<module>] train iou: 0.647785362133023
+2019-12-19 23:46:41,847 train 171 [INFO][<module>] Epoch: 70
+2019-12-19 23:46:41,847 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-19 23:54:30,283 train 220 [INFO][<module>] train loss: 0.26771922379431096
+2019-12-19 23:54:30,283 train 221 [INFO][<module>] train iou: 0.6492166017959631
+2019-12-19 23:54:30,471 train 171 [INFO][<module>] Epoch: 71
+2019-12-19 23:54:30,471 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 00:02:16,848 train 220 [INFO][<module>] train loss: 0.2659913272869707
+2019-12-20 00:02:16,849 train 221 [INFO][<module>] train iou: 0.6523475627835219
+2019-12-20 00:02:17,033 train 171 [INFO][<module>] Epoch: 72
+2019-12-20 00:02:17,034 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 00:10:01,608 train 220 [INFO][<module>] train loss: 0.2633815005873189
+2019-12-20 00:10:01,609 train 221 [INFO][<module>] train iou: 0.6550933124497509
+2019-12-20 00:10:01,803 train 171 [INFO][<module>] Epoch: 73
+2019-12-20 00:10:01,803 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 00:17:47,080 train 220 [INFO][<module>] train loss: 0.2623650997074365
+2019-12-20 00:17:47,080 train 221 [INFO][<module>] train iou: 0.6568268959593961
+2019-12-20 00:17:47,267 train 171 [INFO][<module>] Epoch: 74
+2019-12-20 00:17:47,267 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 00:25:32,165 train 220 [INFO][<module>] train loss: 0.26137658241220596
+2019-12-20 00:25:32,165 train 221 [INFO][<module>] train iou: 0.6587741874416404
+2019-12-20 00:25:32,401 train 171 [INFO][<module>] Epoch: 75
+2019-12-20 00:25:32,402 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 00:33:18,259 train 220 [INFO][<module>] train loss: 0.26010228111487044
+2019-12-20 00:33:18,259 train 221 [INFO][<module>] train iou: 0.6607195048182346
+2019-12-20 00:33:18,446 train 171 [INFO][<module>] Epoch: 76
+2019-12-20 00:33:18,446 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 00:41:03,643 train 220 [INFO][<module>] train loss: 0.2589887065518183
+2019-12-20 00:41:03,643 train 221 [INFO][<module>] train iou: 0.6625305400534444
+2019-12-20 00:41:03,835 train 171 [INFO][<module>] Epoch: 77
+2019-12-20 00:41:03,836 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 00:48:49,793 train 220 [INFO][<module>] train loss: 0.25739241775238153
+2019-12-20 00:48:49,793 train 221 [INFO][<module>] train iou: 0.6645008162821187
+2019-12-20 00:48:49,978 train 171 [INFO][<module>] Epoch: 78
+2019-12-20 00:48:49,979 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 00:56:37,660 train 220 [INFO][<module>] train loss: 0.255810527337922
+2019-12-20 00:56:37,660 train 221 [INFO][<module>] train iou: 0.6661067437087023
+2019-12-20 00:56:37,853 train 171 [INFO][<module>] Epoch: 79
+2019-12-20 00:56:37,853 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 01:04:22,479 train 220 [INFO][<module>] train loss: 0.25456315118455725
+2019-12-20 01:04:22,479 train 221 [INFO][<module>] train iou: 0.668527396574034
+2019-12-20 01:04:22,665 train 171 [INFO][<module>] Epoch: 80
+2019-12-20 01:04:22,665 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 01:12:07,347 train 220 [INFO][<module>] train loss: 0.2545716864392412
+2019-12-20 01:12:07,347 train 221 [INFO][<module>] train iou: 0.6683865938373292
+2019-12-20 01:12:07,591 train 171 [INFO][<module>] Epoch: 81
+2019-12-20 01:12:07,592 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 01:19:54,391 train 220 [INFO][<module>] train loss: 0.2533452972418531
+2019-12-20 01:19:54,391 train 221 [INFO][<module>] train iou: 0.6705414878034363
+2019-12-20 01:19:54,581 train 171 [INFO][<module>] Epoch: 82
+2019-12-20 01:19:54,581 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 01:27:40,994 train 220 [INFO][<module>] train loss: 0.2532032760807159
+2019-12-20 01:27:40,994 train 221 [INFO][<module>] train iou: 0.6712868926340683
+2019-12-20 01:27:41,182 train 171 [INFO][<module>] Epoch: 83
+2019-12-20 01:27:41,182 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 01:35:26,276 train 220 [INFO][<module>] train loss: 0.2517681129853733
+2019-12-20 01:35:26,276 train 221 [INFO][<module>] train iou: 0.6731788011981941
+2019-12-20 01:35:26,457 train 171 [INFO][<module>] Epoch: 84
+2019-12-20 01:35:26,457 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 01:43:12,462 train 220 [INFO][<module>] train loss: 0.25137939191225805
+2019-12-20 01:43:12,462 train 221 [INFO][<module>] train iou: 0.6739579071779476
+2019-12-20 01:43:12,650 train 171 [INFO][<module>] Epoch: 85
+2019-12-20 01:43:12,651 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 01:50:57,190 train 220 [INFO][<module>] train loss: 0.25109362993577516
+2019-12-20 01:50:57,190 train 221 [INFO][<module>] train iou: 0.6744900551850062
+2019-12-20 01:50:57,376 train 171 [INFO][<module>] Epoch: 86
+2019-12-20 01:50:57,377 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 01:58:44,353 train 220 [INFO][<module>] train loss: 0.2509506336265943
+2019-12-20 01:58:44,353 train 221 [INFO][<module>] train iou: 0.6747353187096186
+2019-12-20 01:58:44,588 train 171 [INFO][<module>] Epoch: 87
+2019-12-20 01:58:44,588 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 02:06:30,966 train 220 [INFO][<module>] train loss: 0.25060342738925406
+2019-12-20 02:06:30,966 train 221 [INFO][<module>] train iou: 0.6752451928207304
+2019-12-20 02:06:31,150 train 171 [INFO][<module>] Epoch: 88
+2019-12-20 02:06:31,150 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 02:14:16,814 train 220 [INFO][<module>] train loss: 0.25100321485739363
+2019-12-20 02:14:16,814 train 221 [INFO][<module>] train iou: 0.6745007252788865
+2019-12-20 02:14:16,990 train 171 [INFO][<module>] Epoch: 89
+2019-12-20 02:14:16,990 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 02:22:04,752 train 220 [INFO][<module>] train loss: 0.2662333638379068
+2019-12-20 02:22:04,752 train 221 [INFO][<module>] train iou: 0.6513846520696619
+2019-12-20 02:22:04,941 train 171 [INFO][<module>] Epoch: 90
+2019-12-20 02:22:04,941 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 02:29:50,700 train 220 [INFO][<module>] train loss: 0.2730639896509222
+2019-12-20 02:29:50,700 train 221 [INFO][<module>] train iou: 0.6428681327427141
+2019-12-20 02:29:50,881 train 171 [INFO][<module>] Epoch: 91
+2019-12-20 02:29:50,881 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 02:37:37,054 train 220 [INFO][<module>] train loss: 0.274406219271297
+2019-12-20 02:37:37,055 train 221 [INFO][<module>] train iou: 0.6407523933232645
+2019-12-20 02:37:37,243 train 171 [INFO][<module>] Epoch: 92
+2019-12-20 02:37:37,244 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 02:45:23,717 train 220 [INFO][<module>] train loss: 0.2755016840567894
+2019-12-20 02:45:23,717 train 221 [INFO][<module>] train iou: 0.6392390175547356
+2019-12-20 02:45:23,947 train 171 [INFO][<module>] Epoch: 93
+2019-12-20 02:45:23,948 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 02:53:09,290 train 220 [INFO][<module>] train loss: 0.2739996725963021
+2019-12-20 02:53:09,290 train 221 [INFO][<module>] train iou: 0.6414138530388864
+2019-12-20 02:53:09,493 train 171 [INFO][<module>] Epoch: 94
+2019-12-20 02:53:09,493 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 03:00:55,303 train 220 [INFO][<module>] train loss: 0.2733722937729222
+2019-12-20 03:00:55,303 train 221 [INFO][<module>] train iou: 0.6416955099931057
+2019-12-20 03:00:55,494 train 171 [INFO][<module>] Epoch: 95
+2019-12-20 03:00:55,494 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 03:08:42,053 train 220 [INFO][<module>] train loss: 0.27162482491647355
+2019-12-20 03:08:42,053 train 221 [INFO][<module>] train iou: 0.6441040587843209
+2019-12-20 03:08:42,235 train 171 [INFO][<module>] Epoch: 96
+2019-12-20 03:08:42,235 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 03:16:28,456 train 220 [INFO][<module>] train loss: 0.2711643963951856
+2019-12-20 03:16:28,456 train 221 [INFO][<module>] train iou: 0.6445647567467634
+2019-12-20 03:16:28,639 train 171 [INFO][<module>] Epoch: 97
+2019-12-20 03:16:28,639 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 03:24:14,114 train 220 [INFO][<module>] train loss: 0.26909299204847226
+2019-12-20 03:24:14,114 train 221 [INFO][<module>] train iou: 0.6478107456954002
+2019-12-20 03:24:14,302 train 171 [INFO][<module>] Epoch: 98
+2019-12-20 03:24:14,302 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 03:31:59,509 train 220 [INFO][<module>] train loss: 0.26825654285925404
+2019-12-20 03:31:59,510 train 221 [INFO][<module>] train iou: 0.6483005305759069
+2019-12-20 03:31:59,748 train 171 [INFO][<module>] Epoch: 99
+2019-12-20 03:31:59,749 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 03:39:44,465 train 220 [INFO][<module>] train loss: 0.2663135966568282
+2019-12-20 03:39:44,465 train 221 [INFO][<module>] train iou: 0.6516957122134024
+2019-12-20 03:39:44,653 train 171 [INFO][<module>] Epoch: 100
+2019-12-20 03:39:44,653 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 03:47:29,453 train 220 [INFO][<module>] train loss: 0.26461330261896754
+2019-12-20 03:47:29,453 train 221 [INFO][<module>] train iou: 0.6537118000936198
+2019-12-20 03:47:29,637 train 171 [INFO][<module>] Epoch: 101
+2019-12-20 03:47:29,637 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 03:55:13,913 train 220 [INFO][<module>] train loss: 0.26245718065536383
+2019-12-20 03:55:13,913 train 221 [INFO][<module>] train iou: 0.6569689513451514
+2019-12-20 03:55:14,096 train 171 [INFO][<module>] Epoch: 102
+2019-12-20 03:55:14,096 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 04:02:58,328 train 220 [INFO][<module>] train loss: 0.26055026069434
+2019-12-20 04:02:58,328 train 221 [INFO][<module>] train iou: 0.659260440739497
+2019-12-20 04:02:58,517 train 171 [INFO][<module>] Epoch: 103
+2019-12-20 04:02:58,518 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 04:10:44,922 train 220 [INFO][<module>] train loss: 0.2588321609228147
+2019-12-20 04:10:44,923 train 221 [INFO][<module>] train iou: 0.6620416654788283
+2019-12-20 04:10:45,112 train 171 [INFO][<module>] Epoch: 104
+2019-12-20 04:10:45,113 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 04:18:32,132 train 220 [INFO][<module>] train loss: 0.25787436259716046
+2019-12-20 04:18:32,132 train 221 [INFO][<module>] train iou: 0.6630875116378091
+2019-12-20 04:18:32,369 train 171 [INFO][<module>] Epoch: 105
+2019-12-20 04:18:32,369 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 04:26:19,072 train 220 [INFO][<module>] train loss: 0.2561681463260843
+2019-12-20 04:26:19,072 train 221 [INFO][<module>] train iou: 0.6659645051384318
+2019-12-20 04:26:19,264 train 171 [INFO][<module>] Epoch: 106
+2019-12-20 04:26:19,264 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 04:34:05,694 train 220 [INFO][<module>] train loss: 0.2550647098207313
+2019-12-20 04:34:05,694 train 221 [INFO][<module>] train iou: 0.6676462862731077
+2019-12-20 04:34:05,877 train 171 [INFO][<module>] Epoch: 107
+2019-12-20 04:34:05,877 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 04:41:51,893 train 220 [INFO][<module>] train loss: 0.25363214213639396
+2019-12-20 04:41:51,894 train 221 [INFO][<module>] train iou: 0.6700444071812656
+2019-12-20 04:41:52,074 train 171 [INFO][<module>] Epoch: 108
+2019-12-20 04:41:52,075 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 04:49:38,013 train 220 [INFO][<module>] train loss: 0.2525112737308849
+2019-12-20 04:49:38,013 train 221 [INFO][<module>] train iou: 0.6716595522909758
+2019-12-20 04:49:38,195 train 171 [INFO][<module>] Epoch: 109
+2019-12-20 04:49:38,195 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 04:57:23,764 train 220 [INFO][<module>] train loss: 0.2521776675876945
+2019-12-20 04:57:23,764 train 221 [INFO][<module>] train iou: 0.6716389120288347
+2019-12-20 04:57:23,946 train 171 [INFO][<module>] Epoch: 110
+2019-12-20 04:57:23,946 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 05:05:10,475 train 220 [INFO][<module>] train loss: 0.25089315809184054
+2019-12-20 05:05:10,475 train 221 [INFO][<module>] train iou: 0.6739458648579896
+2019-12-20 05:05:10,663 train 171 [INFO][<module>] Epoch: 111
+2019-12-20 05:05:10,663 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 05:12:57,102 train 220 [INFO][<module>] train loss: 0.25031721205623064
+2019-12-20 05:12:57,103 train 221 [INFO][<module>] train iou: 0.6742721749030225
+2019-12-20 05:12:57,286 train 171 [INFO][<module>] Epoch: 112
+2019-12-20 05:12:57,286 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 05:20:42,325 train 220 [INFO][<module>] train loss: 0.2494196167297235
+2019-12-20 05:20:42,325 train 221 [INFO][<module>] train iou: 0.6763556183556465
+2019-12-20 05:20:42,513 train 171 [INFO][<module>] Epoch: 113
+2019-12-20 05:20:42,513 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 05:28:26,917 train 220 [INFO][<module>] train loss: 0.24852376794975614
+2019-12-20 05:28:26,918 train 221 [INFO][<module>] train iou: 0.6776997302678907
+2019-12-20 05:28:27,108 train 171 [INFO][<module>] Epoch: 114
+2019-12-20 05:28:27,108 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 05:36:14,276 train 220 [INFO][<module>] train loss: 0.24814830850872527
+2019-12-20 05:36:14,276 train 221 [INFO][<module>] train iou: 0.6784934769846159
+2019-12-20 05:36:14,460 train 171 [INFO][<module>] Epoch: 115
+2019-12-20 05:36:14,460 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 05:44:00,632 train 220 [INFO][<module>] train loss: 0.2482119167994971
+2019-12-20 05:44:00,632 train 221 [INFO][<module>] train iou: 0.6785862896026729
+2019-12-20 05:44:00,823 train 171 [INFO][<module>] Epoch: 116
+2019-12-20 05:44:00,823 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 05:51:46,986 train 220 [INFO][<module>] train loss: 0.24782256174970557
+2019-12-20 05:51:46,986 train 221 [INFO][<module>] train iou: 0.6790849578732985
+2019-12-20 05:51:47,167 train 171 [INFO][<module>] Epoch: 117
+2019-12-20 05:51:47,168 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 05:59:31,127 train 220 [INFO][<module>] train loss: 0.24772548469830843
+2019-12-20 05:59:31,127 train 221 [INFO][<module>] train iou: 0.6790586804067632
+2019-12-20 05:59:31,310 train 171 [INFO][<module>] Epoch: 118
+2019-12-20 05:59:31,311 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 06:07:15,842 train 220 [INFO][<module>] train loss: 0.24792703484445308
+2019-12-20 06:07:15,842 train 221 [INFO][<module>] train iou: 0.6789111640668128
+2019-12-20 06:07:16,032 train 171 [INFO][<module>] Epoch: 119
+2019-12-20 06:07:16,032 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 06:15:03,122 train 220 [INFO][<module>] train loss: 0.2608059920646526
+2019-12-20 06:15:03,122 train 221 [INFO][<module>] train iou: 0.6595389325756347
+2019-12-20 06:15:03,309 train 171 [INFO][<module>] Epoch: 120
+2019-12-20 06:15:03,309 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 06:22:47,680 train 220 [INFO][<module>] train loss: 0.26845185488763484
+2019-12-20 06:22:47,680 train 221 [INFO][<module>] train iou: 0.6495284242141228
+2019-12-20 06:22:47,859 train 171 [INFO][<module>] Epoch: 121
+2019-12-20 06:22:47,859 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 06:30:31,796 train 220 [INFO][<module>] train loss: 0.2711583306693067
+2019-12-20 06:30:31,796 train 221 [INFO][<module>] train iou: 0.6455170440811018
+2019-12-20 06:30:31,990 train 171 [INFO][<module>] Epoch: 122
+2019-12-20 06:30:31,990 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 06:38:16,021 train 220 [INFO][<module>] train loss: 0.2734991360192347
+2019-12-20 06:38:16,022 train 221 [INFO][<module>] train iou: 0.6424414337624227
+2019-12-20 06:38:16,201 train 171 [INFO][<module>] Epoch: 123
+2019-12-20 06:38:16,201 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 06:45:59,799 train 220 [INFO][<module>] train loss: 0.2715482162907469
+2019-12-20 06:45:59,799 train 221 [INFO][<module>] train iou: 0.6445215587829815
+2019-12-20 06:45:59,982 train 171 [INFO][<module>] Epoch: 124
+2019-12-20 06:45:59,982 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 06:53:42,384 train 220 [INFO][<module>] train loss: 0.2702799954699346
+2019-12-20 06:53:42,384 train 221 [INFO][<module>] train iou: 0.646429818625752
+2019-12-20 06:53:42,569 train 171 [INFO][<module>] Epoch: 125
+2019-12-20 06:53:42,569 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 07:01:23,023 train 220 [INFO][<module>] train loss: 0.2691758151608284
+2019-12-20 07:01:23,023 train 221 [INFO][<module>] train iou: 0.6479591089212633
+2019-12-20 07:01:23,204 train 171 [INFO][<module>] Epoch: 126
+2019-12-20 07:01:23,204 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 07:09:05,806 train 220 [INFO][<module>] train loss: 0.2681194478614563
+2019-12-20 07:09:05,807 train 221 [INFO][<module>] train iou: 0.6499015822766131
+2019-12-20 07:09:05,988 train 171 [INFO][<module>] Epoch: 127
+2019-12-20 07:09:05,988 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 07:16:48,682 train 220 [INFO][<module>] train loss: 0.2678545537821773
+2019-12-20 07:16:48,682 train 221 [INFO][<module>] train iou: 0.6494547291492986
+2019-12-20 07:16:48,867 train 171 [INFO][<module>] Epoch: 128
+2019-12-20 07:16:48,867 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 07:24:33,091 train 220 [INFO][<module>] train loss: 0.2650193639776923
+2019-12-20 07:24:33,091 train 221 [INFO][<module>] train iou: 0.6537985851625534
+2019-12-20 07:24:33,282 train 171 [INFO][<module>] Epoch: 129
+2019-12-20 07:24:33,282 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 07:32:19,560 train 220 [INFO][<module>] train loss: 0.2637429103405789
+2019-12-20 07:32:19,561 train 221 [INFO][<module>] train iou: 0.6551341085984603
+2019-12-20 07:32:19,755 train 171 [INFO][<module>] Epoch: 130
+2019-12-20 07:32:19,755 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 07:40:03,293 train 220 [INFO][<module>] train loss: 0.2619110800401129
+2019-12-20 07:40:03,294 train 221 [INFO][<module>] train iou: 0.6574900227505335
+2019-12-20 07:40:03,477 train 171 [INFO][<module>] Epoch: 131
+2019-12-20 07:40:03,477 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 07:47:47,235 train 220 [INFO][<module>] train loss: 0.2601756518738037
+2019-12-20 07:47:47,235 train 221 [INFO][<module>] train iou: 0.6604866372212224
+2019-12-20 07:47:47,426 train 171 [INFO][<module>] Epoch: 132
+2019-12-20 07:47:47,426 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 07:55:32,992 train 220 [INFO][<module>] train loss: 0.2584822695664685
+2019-12-20 07:55:32,992 train 221 [INFO][<module>] train iou: 0.662290566367327
+2019-12-20 07:55:33,186 train 171 [INFO][<module>] Epoch: 133
+2019-12-20 07:55:33,187 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 08:03:18,289 train 220 [INFO][<module>] train loss: 0.2568420647370695
+2019-12-20 08:03:18,289 train 221 [INFO][<module>] train iou: 0.6640785417399229
+2019-12-20 08:03:18,471 train 171 [INFO][<module>] Epoch: 134
+2019-12-20 08:03:18,471 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 08:11:03,541 train 220 [INFO][<module>] train loss: 0.2551567467675867
+2019-12-20 08:11:03,541 train 221 [INFO][<module>] train iou: 0.6669611346820415
+2019-12-20 08:11:03,730 train 171 [INFO][<module>] Epoch: 135
+2019-12-20 08:11:03,730 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 08:18:51,450 train 220 [INFO][<module>] train loss: 0.25378501395183783
+2019-12-20 08:18:51,450 train 221 [INFO][<module>] train iou: 0.6691982761650179
+2019-12-20 08:18:51,638 train 171 [INFO][<module>] Epoch: 136
+2019-12-20 08:18:51,638 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 08:26:36,120 train 220 [INFO][<module>] train loss: 0.2525751510453144
+2019-12-20 08:26:36,120 train 221 [INFO][<module>] train iou: 0.6704791637692737
+2019-12-20 08:26:36,314 train 171 [INFO][<module>] Epoch: 137
+2019-12-20 08:26:36,314 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 08:34:20,935 train 220 [INFO][<module>] train loss: 0.25137554565664094
+2019-12-20 08:34:20,936 train 221 [INFO][<module>] train iou: 0.6731941994774983
+2019-12-20 08:34:21,133 train 171 [INFO][<module>] Epoch: 138
+2019-12-20 08:34:21,133 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 08:42:05,240 train 220 [INFO][<module>] train loss: 0.2501437950013864
+2019-12-20 08:42:05,240 train 221 [INFO][<module>] train iou: 0.674332229413271
+2019-12-20 08:42:05,425 train 171 [INFO][<module>] Epoch: 139
+2019-12-20 08:42:05,425 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 08:49:49,716 train 220 [INFO][<module>] train loss: 0.24898904998495122
+2019-12-20 08:49:49,717 train 221 [INFO][<module>] train iou: 0.6764564953890803
+2019-12-20 08:49:49,912 train 171 [INFO][<module>] Epoch: 140
+2019-12-20 08:49:49,912 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 08:57:33,203 train 220 [INFO][<module>] train loss: 0.2471771224179252
+2019-12-20 08:57:33,203 train 221 [INFO][<module>] train iou: 0.6795442773302747
+2019-12-20 08:57:33,391 train 171 [INFO][<module>] Epoch: 141
+2019-12-20 08:57:33,391 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 09:05:16,989 train 220 [INFO][<module>] train loss: 0.24692558419423472
+2019-12-20 09:05:16,989 train 221 [INFO][<module>] train iou: 0.6798635198993989
+2019-12-20 09:05:17,184 train 171 [INFO][<module>] Epoch: 142
+2019-12-20 09:05:17,184 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 09:13:01,999 train 220 [INFO][<module>] train loss: 0.24707050882405304
+2019-12-20 09:13:01,999 train 221 [INFO][<module>] train iou: 0.6799359149330554
+2019-12-20 09:13:02,192 train 171 [INFO][<module>] Epoch: 143
+2019-12-20 09:13:02,192 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 09:20:46,565 train 220 [INFO][<module>] train loss: 0.24569606595368498
+2019-12-20 09:20:46,565 train 221 [INFO][<module>] train iou: 0.6818549551667422
+2019-12-20 09:20:46,754 train 171 [INFO][<module>] Epoch: 144
+2019-12-20 09:20:46,754 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 09:28:32,050 train 220 [INFO][<module>] train loss: 0.2450248271427572
+2019-12-20 09:28:32,050 train 221 [INFO][<module>] train iou: 0.6825420162292308
+2019-12-20 09:28:32,233 train 171 [INFO][<module>] Epoch: 145
+2019-12-20 09:28:32,233 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 09:36:17,370 train 220 [INFO][<module>] train loss: 0.24532547547961725
+2019-12-20 09:36:17,371 train 221 [INFO][<module>] train iou: 0.6819193847440256
+2019-12-20 09:36:17,561 train 171 [INFO][<module>] Epoch: 146
+2019-12-20 09:36:17,561 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 09:44:02,845 train 220 [INFO][<module>] train loss: 0.2448429521988538
+2019-12-20 09:44:02,846 train 221 [INFO][<module>] train iou: 0.683151986016638
+2019-12-20 09:44:03,040 train 171 [INFO][<module>] Epoch: 147
+2019-12-20 09:44:03,040 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 09:51:47,143 train 220 [INFO][<module>] train loss: 0.24444329984461016
+2019-12-20 09:51:47,143 train 221 [INFO][<module>] train iou: 0.6836721801637544
+2019-12-20 09:51:47,336 train 171 [INFO][<module>] Epoch: 148
+2019-12-20 09:51:47,336 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 09:59:29,397 train 220 [INFO][<module>] train loss: 0.24519018116422775
+2019-12-20 09:59:29,398 train 221 [INFO][<module>] train iou: 0.6826817259266867
+2019-12-20 09:59:29,592 train 171 [INFO][<module>] Epoch: 149
+2019-12-20 09:59:29,592 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 10:07:15,467 train 220 [INFO][<module>] train loss: 0.25868353704210084
+2019-12-20 10:07:15,467 train 221 [INFO][<module>] train iou: 0.6626118411188914
+2019-12-20 10:07:15,652 train 171 [INFO][<module>] Epoch: 150
+2019-12-20 10:07:15,652 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 10:15:00,232 train 220 [INFO][<module>] train loss: 0.26687806980176404
+2019-12-20 10:15:00,232 train 221 [INFO][<module>] train iou: 0.6515000608897518
+2019-12-20 10:15:00,419 train 171 [INFO][<module>] Epoch: 151
+2019-12-20 10:15:00,419 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 10:22:46,665 train 220 [INFO][<module>] train loss: 0.26875335344361134
+2019-12-20 10:22:46,665 train 221 [INFO][<module>] train iou: 0.6495929641961515
+2019-12-20 10:22:46,851 train 171 [INFO][<module>] Epoch: 152
+2019-12-20 10:22:46,852 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 10:30:32,635 train 220 [INFO][<module>] train loss: 0.26746797892782426
+2019-12-20 10:30:32,635 train 221 [INFO][<module>] train iou: 0.6509403167286947
+2019-12-20 10:30:32,818 train 171 [INFO][<module>] Epoch: 153
+2019-12-20 10:30:32,818 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 10:38:19,091 train 220 [INFO][<module>] train loss: 0.26887294986231963
+2019-12-20 10:38:19,092 train 221 [INFO][<module>] train iou: 0.6488738714015286
+2019-12-20 10:38:19,292 train 171 [INFO][<module>] Epoch: 154
+2019-12-20 10:38:19,292 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 10:46:04,357 train 220 [INFO][<module>] train loss: 0.26804496388042015
+2019-12-20 10:46:04,357 train 221 [INFO][<module>] train iou: 0.6497964325713048
+2019-12-20 10:46:04,549 train 171 [INFO][<module>] Epoch: 155
+2019-12-20 10:46:04,549 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 10:53:49,747 train 220 [INFO][<module>] train loss: 0.26719720300399896
+2019-12-20 10:53:49,748 train 221 [INFO][<module>] train iou: 0.6505290332343545
+2019-12-20 10:53:49,946 train 171 [INFO][<module>] Epoch: 156
+2019-12-20 10:53:49,946 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 11:01:35,072 train 220 [INFO][<module>] train loss: 0.26566473933984136
+2019-12-20 11:01:35,072 train 221 [INFO][<module>] train iou: 0.6522543835564987
+2019-12-20 11:01:35,268 train 171 [INFO][<module>] Epoch: 157
+2019-12-20 11:01:35,268 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 11:09:18,659 train 220 [INFO][<module>] train loss: 0.2641691668868466
+2019-12-20 11:09:18,659 train 221 [INFO][<module>] train iou: 0.6546841884469323
+2019-12-20 11:09:18,898 train 171 [INFO][<module>] Epoch: 158
+2019-12-20 11:09:18,898 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 11:17:02,698 train 220 [INFO][<module>] train loss: 0.262051195157096
+2019-12-20 11:17:02,699 train 221 [INFO][<module>] train iou: 0.6571622762133965
+2019-12-20 11:17:02,895 train 171 [INFO][<module>] Epoch: 159
+2019-12-20 11:17:02,895 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 11:24:46,999 train 220 [INFO][<module>] train loss: 0.2614243705866714
+2019-12-20 11:24:46,999 train 221 [INFO][<module>] train iou: 0.6585554970267208
+2019-12-20 11:24:47,196 train 171 [INFO][<module>] Epoch: 160
+2019-12-20 11:24:47,196 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 11:32:30,844 train 220 [INFO][<module>] train loss: 0.2595234658280607
+2019-12-20 11:32:30,844 train 221 [INFO][<module>] train iou: 0.6609683268751716
+2019-12-20 11:32:31,035 train 171 [INFO][<module>] Epoch: 161
+2019-12-20 11:32:31,036 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 11:40:14,953 train 220 [INFO][<module>] train loss: 0.2575474195809477
+2019-12-20 11:40:14,954 train 221 [INFO][<module>] train iou: 0.664075298699165
+2019-12-20 11:40:15,152 train 171 [INFO][<module>] Epoch: 162
+2019-12-20 11:40:15,152 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 11:47:58,013 train 220 [INFO][<module>] train loss: 0.2549916465174068
+2019-12-20 11:47:58,013 train 221 [INFO][<module>] train iou: 0.6674887806661308
+2019-12-20 11:47:58,204 train 171 [INFO][<module>] Epoch: 163
+2019-12-20 11:47:58,204 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 11:55:41,467 train 220 [INFO][<module>] train loss: 0.2535172954251871
+2019-12-20 11:55:41,467 train 221 [INFO][<module>] train iou: 0.66902033032688
+2019-12-20 11:55:41,706 train 171 [INFO][<module>] Epoch: 164
+2019-12-20 11:55:41,706 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 12:03:27,316 train 220 [INFO][<module>] train loss: 0.252055413995929
+2019-12-20 12:03:27,316 train 221 [INFO][<module>] train iou: 0.6715073436082564
+2019-12-20 12:03:27,500 train 171 [INFO][<module>] Epoch: 165
+2019-12-20 12:03:27,500 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 12:11:12,851 train 220 [INFO][<module>] train loss: 0.25042658381991917
+2019-12-20 12:11:12,851 train 221 [INFO][<module>] train iou: 0.6733043432337108
+2019-12-20 12:11:13,036 train 171 [INFO][<module>] Epoch: 166
+2019-12-20 12:11:13,036 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 12:18:58,119 train 220 [INFO][<module>] train loss: 0.24891551516272806
+2019-12-20 12:18:58,119 train 221 [INFO][<module>] train iou: 0.6758149769467603
+2019-12-20 12:18:58,308 train 171 [INFO][<module>] Epoch: 167
+2019-12-20 12:18:58,308 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 12:26:44,069 train 220 [INFO][<module>] train loss: 0.2481135972320833
+2019-12-20 12:26:44,069 train 221 [INFO][<module>] train iou: 0.6769838191609066
+2019-12-20 12:26:44,257 train 171 [INFO][<module>] Epoch: 168
+2019-12-20 12:26:44,257 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 12:34:29,632 train 220 [INFO][<module>] train loss: 0.24724982187202083
+2019-12-20 12:34:29,632 train 221 [INFO][<module>] train iou: 0.6782703334681585
+2019-12-20 12:34:29,821 train 171 [INFO][<module>] Epoch: 169
+2019-12-20 12:34:29,821 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 12:42:14,406 train 220 [INFO][<module>] train loss: 0.2464027160947973
+2019-12-20 12:42:14,406 train 221 [INFO][<module>] train iou: 0.6800423078160156
+2019-12-20 12:42:14,654 train 171 [INFO][<module>] Epoch: 170
+2019-12-20 12:42:14,654 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 12:49:59,913 train 220 [INFO][<module>] train loss: 0.24523614627945703
+2019-12-20 12:49:59,913 train 221 [INFO][<module>] train iou: 0.6815255357462275
+2019-12-20 12:50:00,109 train 171 [INFO][<module>] Epoch: 171
+2019-12-20 12:50:00,110 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 12:57:46,213 train 220 [INFO][<module>] train loss: 0.24436104056811092
+2019-12-20 12:57:46,213 train 221 [INFO][<module>] train iou: 0.683257862972341
+2019-12-20 12:57:46,403 train 171 [INFO][<module>] Epoch: 172
+2019-12-20 12:57:46,403 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 13:05:32,335 train 220 [INFO][<module>] train loss: 0.24361120906943826
+2019-12-20 13:05:32,335 train 221 [INFO][<module>] train iou: 0.6840882034938285
+2019-12-20 13:05:32,523 train 171 [INFO][<module>] Epoch: 173
+2019-12-20 13:05:32,523 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 13:13:16,916 train 220 [INFO][<module>] train loss: 0.24274784351639475
+2019-12-20 13:13:16,916 train 221 [INFO][<module>] train iou: 0.6853862069181227
+2019-12-20 13:13:17,103 train 171 [INFO][<module>] Epoch: 174
+2019-12-20 13:13:17,103 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 13:21:01,442 train 220 [INFO][<module>] train loss: 0.2426505111885392
+2019-12-20 13:21:01,442 train 221 [INFO][<module>] train iou: 0.6857148259247118
+2019-12-20 13:21:01,628 train 171 [INFO][<module>] Epoch: 175
+2019-12-20 13:21:01,628 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 13:28:46,557 train 220 [INFO][<module>] train loss: 0.24235385305150992
+2019-12-20 13:28:46,558 train 221 [INFO][<module>] train iou: 0.6861497611429455
+2019-12-20 13:28:46,804 train 171 [INFO][<module>] Epoch: 176
+2019-12-20 13:28:46,804 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 13:36:32,615 train 220 [INFO][<module>] train loss: 0.24236247329800217
+2019-12-20 13:36:32,615 train 221 [INFO][<module>] train iou: 0.6860385499859629
+2019-12-20 13:36:32,802 train 171 [INFO][<module>] Epoch: 177
+2019-12-20 13:36:32,802 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 13:44:17,516 train 220 [INFO][<module>] train loss: 0.24214946275407617
+2019-12-20 13:44:17,517 train 221 [INFO][<module>] train iou: 0.6864273887238455
+2019-12-20 13:44:17,703 train 171 [INFO][<module>] Epoch: 178
+2019-12-20 13:44:17,703 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 13:52:04,214 train 220 [INFO][<module>] train loss: 0.24191092576844123
+2019-12-20 13:52:04,214 train 221 [INFO][<module>] train iou: 0.6869781177766264
+2019-12-20 13:52:04,409 train 171 [INFO][<module>] Epoch: 179
+2019-12-20 13:52:04,409 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 13:59:48,970 train 220 [INFO][<module>] train loss: 0.2561159314029546
+2019-12-20 13:59:48,970 train 221 [INFO][<module>] train iou: 0.6662552344638878
+2019-12-20 13:59:49,167 train 171 [INFO][<module>] Epoch: 180
+2019-12-20 13:59:49,167 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 14:07:35,384 train 220 [INFO][<module>] train loss: 0.26386193539759123
+2019-12-20 14:07:35,384 train 221 [INFO][<module>] train iou: 0.656266760277234
+2019-12-20 14:07:35,570 train 171 [INFO][<module>] Epoch: 181
+2019-12-20 14:07:35,570 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 14:15:20,021 train 220 [INFO][<module>] train loss: 0.26595104056777374
+2019-12-20 14:15:20,021 train 221 [INFO][<module>] train iou: 0.6525480193271143
+2019-12-20 14:15:20,258 train 171 [INFO][<module>] Epoch: 182
+2019-12-20 14:15:20,258 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 14:23:05,057 train 220 [INFO][<module>] train loss: 0.2668665941014434
+2019-12-20 14:23:05,058 train 221 [INFO][<module>] train iou: 0.6510947258216382
+2019-12-20 14:23:05,248 train 171 [INFO][<module>] Epoch: 183
+2019-12-20 14:23:05,248 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 14:30:48,398 train 220 [INFO][<module>] train loss: 0.26556673500473654
+2019-12-20 14:30:48,398 train 221 [INFO][<module>] train iou: 0.6532249427561775
+2019-12-20 14:30:48,585 train 171 [INFO][<module>] Epoch: 184
+2019-12-20 14:30:48,585 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 14:38:32,249 train 220 [INFO][<module>] train loss: 0.26577683003863906
+2019-12-20 14:38:32,249 train 221 [INFO][<module>] train iou: 0.6526802491141058
+2019-12-20 14:38:32,439 train 171 [INFO][<module>] Epoch: 185
+2019-12-20 14:38:32,439 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 14:46:16,643 train 220 [INFO][<module>] train loss: 0.2646519728381224
+2019-12-20 14:46:16,643 train 221 [INFO][<module>] train iou: 0.6541699344197437
+2019-12-20 14:46:16,839 train 171 [INFO][<module>] Epoch: 186
+2019-12-20 14:46:16,839 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 14:53:59,727 train 220 [INFO][<module>] train loss: 0.2633286998027102
+2019-12-20 14:53:59,727 train 221 [INFO][<module>] train iou: 0.6562960198596346
+2019-12-20 14:53:59,921 train 171 [INFO][<module>] Epoch: 187
+2019-12-20 14:53:59,921 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 15:01:44,769 train 220 [INFO][<module>] train loss: 0.261674619935177
+2019-12-20 15:01:44,769 train 221 [INFO][<module>] train iou: 0.6580502117344149
+2019-12-20 15:01:45,013 train 171 [INFO][<module>] Epoch: 188
+2019-12-20 15:01:45,013 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 15:09:30,403 train 220 [INFO][<module>] train loss: 0.2606237628042497
+2019-12-20 15:09:30,403 train 221 [INFO][<module>] train iou: 0.6595529393920846
+2019-12-20 15:09:30,605 train 171 [INFO][<module>] Epoch: 189
+2019-12-20 15:09:30,605 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 15:17:14,525 train 220 [INFO][<module>] train loss: 0.2578902002737578
+2019-12-20 15:17:14,525 train 221 [INFO][<module>] train iou: 0.6628410072645979
+2019-12-20 15:17:14,715 train 171 [INFO][<module>] Epoch: 190
+2019-12-20 15:17:14,715 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 15:24:57,234 train 220 [INFO][<module>] train loss: 0.2565293379303582
+2019-12-20 15:24:57,234 train 221 [INFO][<module>] train iou: 0.6651145953762452
+2019-12-20 15:24:57,432 train 171 [INFO][<module>] Epoch: 191
+2019-12-20 15:24:57,432 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 15:32:39,234 train 220 [INFO][<module>] train loss: 0.2548631790912513
+2019-12-20 15:32:39,235 train 221 [INFO][<module>] train iou: 0.6678162244976354
+2019-12-20 15:32:39,434 train 171 [INFO][<module>] Epoch: 192
+2019-12-20 15:32:39,434 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 15:40:22,306 train 220 [INFO][<module>] train loss: 0.2537109603986194
+2019-12-20 15:40:22,307 train 221 [INFO][<module>] train iou: 0.6689139196047054
+2019-12-20 15:40:22,499 train 171 [INFO][<module>] Epoch: 193
+2019-12-20 15:40:22,499 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 15:48:05,044 train 220 [INFO][<module>] train loss: 0.2520444137781156
+2019-12-20 15:48:05,044 train 221 [INFO][<module>] train iou: 0.6710630583744519
+2019-12-20 15:48:05,295 train 171 [INFO][<module>] Epoch: 194
+2019-12-20 15:48:05,295 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 15:55:48,905 train 220 [INFO][<module>] train loss: 0.24999688370059234
+2019-12-20 15:55:48,906 train 221 [INFO][<module>] train iou: 0.6740577848746141
+2019-12-20 15:55:49,102 train 171 [INFO][<module>] Epoch: 195
+2019-12-20 15:55:49,102 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 16:03:31,667 train 220 [INFO][<module>] train loss: 0.24809135125341641
+2019-12-20 16:03:31,668 train 221 [INFO][<module>] train iou: 0.6771388822584959
+2019-12-20 16:03:31,866 train 171 [INFO][<module>] Epoch: 196
+2019-12-20 16:03:31,866 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 16:11:15,941 train 220 [INFO][<module>] train loss: 0.24659577187664983
+2019-12-20 16:11:15,941 train 221 [INFO][<module>] train iou: 0.6787435879717829
+2019-12-20 16:11:16,130 train 171 [INFO][<module>] Epoch: 197
+2019-12-20 16:11:16,130 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 16:19:00,794 train 220 [INFO][<module>] train loss: 0.2459906730989013
+2019-12-20 16:19:00,794 train 221 [INFO][<module>] train iou: 0.6801544030317509
+2019-12-20 16:19:00,982 train 171 [INFO][<module>] Epoch: 198
+2019-12-20 16:19:00,982 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 16:26:45,594 train 220 [INFO][<module>] train loss: 0.24471822300743976
+2019-12-20 16:26:45,594 train 221 [INFO][<module>] train iou: 0.6819085505105146
+2019-12-20 16:26:45,791 train 171 [INFO][<module>] Epoch: 199
+2019-12-20 16:26:45,792 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 16:34:29,979 train 220 [INFO][<module>] train loss: 0.24368927755741157
+2019-12-20 16:34:29,979 train 221 [INFO][<module>] train iou: 0.6836010849244174
+2019-12-20 16:34:30,226 train 171 [INFO][<module>] Epoch: 200
+2019-12-20 16:34:30,226 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 16:42:13,563 train 220 [INFO][<module>] train loss: 0.24215467439757454
+2019-12-20 16:42:13,563 train 221 [INFO][<module>] train iou: 0.6863068845592267
+2019-12-20 16:42:13,758 train 171 [INFO][<module>] Epoch: 201
+2019-12-20 16:42:13,758 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 16:49:56,954 train 220 [INFO][<module>] train loss: 0.24198138859336224
+2019-12-20 16:49:56,954 train 221 [INFO][<module>] train iou: 0.6861907897769796
+2019-12-20 16:49:57,143 train 171 [INFO][<module>] Epoch: 202
+2019-12-20 16:49:57,143 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 16:57:41,113 train 220 [INFO][<module>] train loss: 0.24104089774065948
+2019-12-20 16:57:41,113 train 221 [INFO][<module>] train iou: 0.6876114694325162
+2019-12-20 16:57:41,312 train 171 [INFO][<module>] Epoch: 203
+2019-12-20 16:57:41,312 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 17:05:25,979 train 220 [INFO][<module>] train loss: 0.24135814351264875
+2019-12-20 17:05:25,980 train 221 [INFO][<module>] train iou: 0.687759464779324
+2019-12-20 17:05:26,177 train 171 [INFO][<module>] Epoch: 204
+2019-12-20 17:05:26,177 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 17:13:10,682 train 220 [INFO][<module>] train loss: 0.239999718989186
+2019-12-20 17:13:10,682 train 221 [INFO][<module>] train iou: 0.6894625857356909
+2019-12-20 17:13:10,872 train 171 [INFO][<module>] Epoch: 205
+2019-12-20 17:13:10,872 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 17:20:55,423 train 220 [INFO][<module>] train loss: 0.24011452014398094
+2019-12-20 17:20:55,423 train 221 [INFO][<module>] train iou: 0.689247945416067
+2019-12-20 17:20:55,654 train 171 [INFO][<module>] Epoch: 206
+2019-12-20 17:20:55,654 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 17:28:39,358 train 220 [INFO][<module>] train loss: 0.23938133294132824
+2019-12-20 17:28:39,359 train 221 [INFO][<module>] train iou: 0.6902450903597663
+2019-12-20 17:28:39,541 train 171 [INFO][<module>] Epoch: 207
+2019-12-20 17:28:39,541 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 17:36:21,519 train 220 [INFO][<module>] train loss: 0.2395152143055341
+2019-12-20 17:36:21,519 train 221 [INFO][<module>] train iou: 0.6899569652060616
+2019-12-20 17:36:21,701 train 171 [INFO][<module>] Epoch: 208
+2019-12-20 17:36:21,701 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 17:44:05,419 train 220 [INFO][<module>] train loss: 0.2393911501474252
+2019-12-20 17:44:05,419 train 221 [INFO][<module>] train iou: 0.6904991270218307
+2019-12-20 17:44:05,600 train 171 [INFO][<module>] Epoch: 209
+2019-12-20 17:44:05,600 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 17:51:49,475 train 220 [INFO][<module>] train loss: 0.2540527342345177
+2019-12-20 17:51:49,475 train 221 [INFO][<module>] train iou: 0.6689912035247816
+2019-12-20 17:51:49,655 train 171 [INFO][<module>] Epoch: 210
+2019-12-20 17:51:49,656 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 17:59:33,595 train 220 [INFO][<module>] train loss: 0.26130480748234375
+2019-12-20 17:59:33,595 train 221 [INFO][<module>] train iou: 0.6593110382215579
+2019-12-20 17:59:33,781 train 171 [INFO][<module>] Epoch: 211
+2019-12-20 17:59:33,781 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 18:07:16,890 train 220 [INFO][<module>] train loss: 0.26255679311174335
+2019-12-20 18:07:16,890 train 221 [INFO][<module>] train iou: 0.6570646117007665
+2019-12-20 18:07:17,071 train 171 [INFO][<module>] Epoch: 212
+2019-12-20 18:07:17,071 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 18:15:00,867 train 220 [INFO][<module>] train loss: 0.26413242704539186
+2019-12-20 18:15:00,868 train 221 [INFO][<module>] train iou: 0.6553829913219935
+2019-12-20 18:15:01,054 train 171 [INFO][<module>] Epoch: 213
+2019-12-20 18:15:01,054 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 18:22:45,210 train 220 [INFO][<module>] train loss: 0.26361412336729995
+2019-12-20 18:22:45,210 train 221 [INFO][<module>] train iou: 0.6564432735640177
+2019-12-20 18:22:45,397 train 171 [INFO][<module>] Epoch: 214
+2019-12-20 18:22:45,397 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 18:30:29,014 train 220 [INFO][<module>] train loss: 0.26381699705766104
+2019-12-20 18:30:29,014 train 221 [INFO][<module>] train iou: 0.6555200247277811
+2019-12-20 18:30:29,205 train 171 [INFO][<module>] Epoch: 215
+2019-12-20 18:30:29,205 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 18:38:12,008 train 220 [INFO][<module>] train loss: 0.26264128660914876
+2019-12-20 18:38:12,008 train 221 [INFO][<module>] train iou: 0.6569717124701642
+2019-12-20 18:38:12,195 train 171 [INFO][<module>] Epoch: 216
+2019-12-20 18:38:12,195 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 18:45:54,474 train 220 [INFO][<module>] train loss: 0.26045770516700617
+2019-12-20 18:45:54,474 train 221 [INFO][<module>] train iou: 0.6600167404242594
+2019-12-20 18:45:54,657 train 171 [INFO][<module>] Epoch: 217
+2019-12-20 18:45:54,658 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 18:53:37,531 train 220 [INFO][<module>] train loss: 0.2595431558812909
+2019-12-20 18:53:37,532 train 221 [INFO][<module>] train iou: 0.6612032651187715
+2019-12-20 18:53:37,723 train 171 [INFO][<module>] Epoch: 218
+2019-12-20 18:53:37,723 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 19:01:20,406 train 220 [INFO][<module>] train loss: 0.25725127711440576
+2019-12-20 19:01:20,406 train 221 [INFO][<module>] train iou: 0.6643924659056738
+2019-12-20 19:01:20,639 train 171 [INFO][<module>] Epoch: 219
+2019-12-20 19:01:20,639 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 19:09:03,641 train 220 [INFO][<module>] train loss: 0.25585250576537866
+2019-12-20 19:09:03,641 train 221 [INFO][<module>] train iou: 0.6655359047958415
+2019-12-20 19:09:03,822 train 171 [INFO][<module>] Epoch: 220
+2019-12-20 19:09:03,822 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 19:16:48,631 train 220 [INFO][<module>] train loss: 0.25358044052565537
+2019-12-20 19:16:48,631 train 221 [INFO][<module>] train iou: 0.6692572317490607
+2019-12-20 19:16:48,819 train 171 [INFO][<module>] Epoch: 221
+2019-12-20 19:16:48,819 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 19:24:32,643 train 220 [INFO][<module>] train loss: 0.25229634961696584
+2019-12-20 19:24:32,643 train 221 [INFO][<module>] train iou: 0.6711074578272365
+2019-12-20 19:24:32,825 train 171 [INFO][<module>] Epoch: 222
+2019-12-20 19:24:32,825 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 19:32:16,088 train 220 [INFO][<module>] train loss: 0.25060875723859677
+2019-12-20 19:32:16,088 train 221 [INFO][<module>] train iou: 0.6730720092124527
+2019-12-20 19:32:16,274 train 171 [INFO][<module>] Epoch: 223
+2019-12-20 19:32:16,274 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 19:39:58,880 train 220 [INFO][<module>] train loss: 0.24906012987849688
+2019-12-20 19:39:58,881 train 221 [INFO][<module>] train iou: 0.6756800783539855
+2019-12-20 19:39:59,070 train 171 [INFO][<module>] Epoch: 224
+2019-12-20 19:39:59,070 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 19:47:42,788 train 220 [INFO][<module>] train loss: 0.24756528532464897
+2019-12-20 19:47:42,788 train 221 [INFO][<module>] train iou: 0.6777535161191862
+2019-12-20 19:47:42,968 train 171 [INFO][<module>] Epoch: 225
+2019-12-20 19:47:42,968 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 19:55:25,789 train 220 [INFO][<module>] train loss: 0.24623402531700905
+2019-12-20 19:55:25,789 train 221 [INFO][<module>] train iou: 0.6795555435332381
+2019-12-20 19:55:25,967 train 171 [INFO][<module>] Epoch: 226
+2019-12-20 19:55:25,967 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 20:03:08,719 train 220 [INFO][<module>] train loss: 0.24511387477619478
+2019-12-20 20:03:08,719 train 221 [INFO][<module>] train iou: 0.681191910177852
+2019-12-20 20:03:08,901 train 171 [INFO][<module>] Epoch: 227
+2019-12-20 20:03:08,901 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-20 20:10:51,283 train 220 [INFO][<module>] train loss: 0.24243779947059324
+2019-12-20 20:10:51,283 train 221 [INFO][<module>] train iou: 0.6848741741971888
+2019-12-20 20:10:51,463 train 171 [INFO][<module>] Epoch: 228
+2019-12-20 20:10:51,463 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-20 20:18:34,337 train 220 [INFO][<module>] train loss: 0.24257456408405947
+2019-12-20 20:18:34,337 train 221 [INFO][<module>] train iou: 0.6848253114491931
+2019-12-20 20:18:34,528 train 171 [INFO][<module>] Epoch: 229
+2019-12-20 20:18:34,528 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-20 20:26:18,133 train 220 [INFO][<module>] train loss: 0.24086439765061593
+2019-12-20 20:26:18,133 train 221 [INFO][<module>] train iou: 0.6873535933750742
+2019-12-20 20:26:18,320 train 171 [INFO][<module>] Epoch: 230
+2019-12-20 20:26:18,320 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-20 20:34:02,786 train 220 [INFO][<module>] train loss: 0.24023625058959228
+2019-12-20 20:34:02,786 train 221 [INFO][<module>] train iou: 0.6883253590794562
+2019-12-20 20:34:02,967 train 171 [INFO][<module>] Epoch: 231
+2019-12-20 20:34:02,967 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-20 20:41:44,261 train 220 [INFO][<module>] train loss: 0.23941402879828957
+2019-12-20 20:41:44,261 train 221 [INFO][<module>] train iou: 0.6890083760553969
+2019-12-20 20:41:44,505 train 171 [INFO][<module>] Epoch: 232
+2019-12-20 20:41:44,505 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-20 20:49:27,894 train 220 [INFO][<module>] train loss: 0.23864964799648183
+2019-12-20 20:49:27,894 train 221 [INFO][<module>] train iou: 0.6909383315397835
+2019-12-20 20:49:28,081 train 171 [INFO][<module>] Epoch: 233
+2019-12-20 20:49:28,081 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-20 20:57:11,544 train 220 [INFO][<module>] train loss: 0.23816751520641724
+2019-12-20 20:57:11,544 train 221 [INFO][<module>] train iou: 0.6917243111629504
+2019-12-20 20:57:11,731 train 171 [INFO][<module>] Epoch: 234
+2019-12-20 20:57:11,731 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-20 21:04:54,641 train 220 [INFO][<module>] train loss: 0.23713024346916764
+2019-12-20 21:04:54,641 train 221 [INFO][<module>] train iou: 0.69263276265178
+2019-12-20 21:04:54,832 train 171 [INFO][<module>] Epoch: 235
+2019-12-20 21:04:54,832 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-20 21:12:36,432 train 220 [INFO][<module>] train loss: 0.23721944478023735
+2019-12-20 21:12:36,433 train 221 [INFO][<module>] train iou: 0.6931872412331679
+2019-12-20 21:12:36,613 train 171 [INFO][<module>] Epoch: 236
+2019-12-20 21:12:36,613 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-20 21:20:20,074 train 220 [INFO][<module>] train loss: 0.23734557101822862
+2019-12-20 21:20:20,075 train 221 [INFO][<module>] train iou: 0.6928395131954503
+2019-12-20 21:20:20,260 train 171 [INFO][<module>] Epoch: 237
+2019-12-20 21:20:20,260 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-20 21:28:02,130 train 220 [INFO][<module>] train loss: 0.2373266036462302
+2019-12-20 21:28:02,131 train 221 [INFO][<module>] train iou: 0.6928952574213009
+2019-12-20 21:28:02,315 train 171 [INFO][<module>] Epoch: 238
+2019-12-20 21:28:02,315 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-20 21:35:45,374 train 220 [INFO][<module>] train loss: 0.2368857776275789
+2019-12-20 21:35:45,375 train 221 [INFO][<module>] train iou: 0.6932114221917224
+2019-12-20 21:35:45,561 train 171 [INFO][<module>] Epoch: 239
+2019-12-20 21:35:45,561 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-20 21:43:31,402 train 220 [INFO][<module>] train loss: 0.2502787836673685
+2019-12-20 21:43:31,402 train 221 [INFO][<module>] train iou: 0.6740642908410045
+2019-12-20 21:43:31,594 train 171 [INFO][<module>] Epoch: 240
+2019-12-20 21:43:31,594 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-20 21:51:14,422 train 220 [INFO][<module>] train loss: 0.25913777967494744
+2019-12-20 21:51:14,423 train 221 [INFO][<module>] train iou: 0.6625505511559117
+2019-12-20 21:51:14,608 train 171 [INFO][<module>] Epoch: 241
+2019-12-20 21:51:14,609 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-20 21:58:57,492 train 220 [INFO][<module>] train loss: 0.26097072630819645
+2019-12-20 21:58:57,492 train 221 [INFO][<module>] train iou: 0.6599919363495739
+2019-12-20 21:58:57,677 train 171 [INFO][<module>] Epoch: 242
+2019-12-20 21:58:57,677 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-20 22:06:40,089 train 220 [INFO][<module>] train loss: 0.26233324679461395
+2019-12-20 22:06:40,090 train 221 [INFO][<module>] train iou: 0.6580821442846352
+2019-12-20 22:06:40,275 train 171 [INFO][<module>] Epoch: 243
+2019-12-20 22:06:40,275 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-20 22:14:21,743 train 220 [INFO][<module>] train loss: 0.2650338309481489
+2019-12-20 22:14:21,743 train 221 [INFO][<module>] train iou: 0.6548438854679133
+2019-12-20 22:14:21,929 train 171 [INFO][<module>] Epoch: 244
+2019-12-20 22:14:21,929 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-20 22:22:04,113 train 220 [INFO][<module>] train loss: 0.2629447688257654
+2019-12-20 22:22:04,113 train 221 [INFO][<module>] train iou: 0.6569182858329167
+2019-12-20 22:22:04,304 train 171 [INFO][<module>] Epoch: 245
+2019-12-20 22:22:04,304 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-20 22:29:47,183 train 220 [INFO][<module>] train loss: 0.2614320239635429
+2019-12-20 22:29:47,183 train 221 [INFO][<module>] train iou: 0.6593256930835193
+2019-12-20 22:29:47,370 train 171 [INFO][<module>] Epoch: 246
+2019-12-20 22:29:47,370 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-20 22:37:29,571 train 220 [INFO][<module>] train loss: 0.25921373285027066
+2019-12-20 22:37:29,571 train 221 [INFO][<module>] train iou: 0.661692816146301
+2019-12-20 22:37:29,758 train 171 [INFO][<module>] Epoch: 247
+2019-12-20 22:37:29,758 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-20 22:45:12,016 train 220 [INFO][<module>] train loss: 0.25721920439691254
+2019-12-20 22:45:12,016 train 221 [INFO][<module>] train iou: 0.6645553983451036
+2019-12-20 22:45:12,204 train 171 [INFO][<module>] Epoch: 248
+2019-12-20 22:45:12,204 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-20 22:52:55,170 train 220 [INFO][<module>] train loss: 0.2560803544039678
+2019-12-20 22:52:55,171 train 221 [INFO][<module>] train iou: 0.6659221604007912
+2019-12-20 22:52:55,358 train 171 [INFO][<module>] Epoch: 249
+2019-12-20 22:52:55,358 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-20 23:00:38,528 train 220 [INFO][<module>] train loss: 0.2538341791541488
+2019-12-20 23:00:38,528 train 221 [INFO][<module>] train iou: 0.6689104337970402
+2019-12-20 23:00:38,712 train 171 [INFO][<module>] Epoch: 250
+2019-12-20 23:00:38,712 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-20 23:08:23,323 train 220 [INFO][<module>] train loss: 0.25225874816729166
+2019-12-20 23:08:23,323 train 221 [INFO][<module>] train iou: 0.6708560534732211
+2019-12-20 23:08:23,514 train 171 [INFO][<module>] Epoch: 251
+2019-12-20 23:08:23,514 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-20 23:16:05,572 train 220 [INFO][<module>] train loss: 0.24963617515483688
+2019-12-20 23:16:05,573 train 221 [INFO][<module>] train iou: 0.6744157223493683
+2019-12-20 23:16:05,765 train 171 [INFO][<module>] Epoch: 252
+2019-12-20 23:16:05,765 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-20 23:23:48,621 train 220 [INFO][<module>] train loss: 0.24856625893702008
+2019-12-20 23:23:48,621 train 221 [INFO][<module>] train iou: 0.6764507558767999
+2019-12-20 23:23:48,802 train 171 [INFO][<module>] Epoch: 253
+2019-12-20 23:23:48,803 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-20 23:31:29,791 train 220 [INFO][<module>] train loss: 0.2470101133641169
+2019-12-20 23:31:29,791 train 221 [INFO][<module>] train iou: 0.6785608419827377
+2019-12-20 23:31:29,980 train 171 [INFO][<module>] Epoch: 254
+2019-12-20 23:31:29,980 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-20 23:39:12,420 train 220 [INFO][<module>] train loss: 0.24515430584098352
+2019-12-20 23:39:12,420 train 221 [INFO][<module>] train iou: 0.6811485073116981
+2019-12-20 23:39:12,612 train 171 [INFO][<module>] Epoch: 255
+2019-12-20 23:39:12,612 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-20 23:46:54,238 train 220 [INFO][<module>] train loss: 0.2436824864911712
+2019-12-20 23:46:54,238 train 221 [INFO][<module>] train iou: 0.6827525093409657
+2019-12-20 23:46:54,426 train 171 [INFO][<module>] Epoch: 256
+2019-12-20 23:46:54,426 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-20 23:54:37,546 train 220 [INFO][<module>] train loss: 0.2424840828786394
+2019-12-20 23:54:37,546 train 221 [INFO][<module>] train iou: 0.6849276309009167
+2019-12-20 23:54:37,735 train 171 [INFO][<module>] Epoch: 257
+2019-12-20 23:54:37,735 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 00:02:19,846 train 220 [INFO][<module>] train loss: 0.24124342208157484
+2019-12-21 00:02:19,846 train 221 [INFO][<module>] train iou: 0.6868190179243977
+2019-12-21 00:02:20,028 train 171 [INFO][<module>] Epoch: 258
+2019-12-21 00:02:20,028 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 00:10:03,371 train 220 [INFO][<module>] train loss: 0.2402255437791548
+2019-12-21 00:10:03,371 train 221 [INFO][<module>] train iou: 0.6881182713668386
+2019-12-21 00:10:03,560 train 171 [INFO][<module>] Epoch: 259
+2019-12-21 00:10:03,561 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 00:17:47,320 train 220 [INFO][<module>] train loss: 0.23885538406444318
+2019-12-21 00:17:47,320 train 221 [INFO][<module>] train iou: 0.6904937099497047
+2019-12-21 00:17:47,502 train 171 [INFO][<module>] Epoch: 260
+2019-12-21 00:17:47,502 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 00:25:31,101 train 220 [INFO][<module>] train loss: 0.2380926036573821
+2019-12-21 00:25:31,101 train 221 [INFO][<module>] train iou: 0.6915243986755583
+2019-12-21 00:25:31,288 train 171 [INFO][<module>] Epoch: 261
+2019-12-21 00:25:31,288 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 00:33:13,221 train 220 [INFO][<module>] train loss: 0.23655394958927978
+2019-12-21 00:33:13,221 train 221 [INFO][<module>] train iou: 0.6935724968223568
+2019-12-21 00:33:13,403 train 171 [INFO][<module>] Epoch: 262
+2019-12-21 00:33:13,403 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 00:40:58,509 train 220 [INFO][<module>] train loss: 0.23680014005213074
+2019-12-21 00:40:58,509 train 221 [INFO][<module>] train iou: 0.6934047024835531
+2019-12-21 00:40:58,699 train 171 [INFO][<module>] Epoch: 263
+2019-12-21 00:40:58,700 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 00:48:41,942 train 220 [INFO][<module>] train loss: 0.2357676040744942
+2019-12-21 00:48:41,943 train 221 [INFO][<module>] train iou: 0.6945680151058207
+2019-12-21 00:48:42,132 train 171 [INFO][<module>] Epoch: 264
+2019-12-21 00:48:42,132 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 00:56:25,340 train 220 [INFO][<module>] train loss: 0.23561220764110385
+2019-12-21 00:56:25,340 train 221 [INFO][<module>] train iou: 0.6949385128196579
+2019-12-21 00:56:25,522 train 171 [INFO][<module>] Epoch: 265
+2019-12-21 00:56:25,522 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 01:04:08,555 train 220 [INFO][<module>] train loss: 0.2351656670522208
+2019-12-21 01:04:08,555 train 221 [INFO][<module>] train iou: 0.695657590731947
+2019-12-21 01:04:08,739 train 171 [INFO][<module>] Epoch: 266
+2019-12-21 01:04:08,739 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 01:11:51,658 train 220 [INFO][<module>] train loss: 0.2348182839576644
+2019-12-21 01:11:51,658 train 221 [INFO][<module>] train iou: 0.6964313995931872
+2019-12-21 01:11:51,853 train 171 [INFO][<module>] Epoch: 267
+2019-12-21 01:11:51,853 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 01:19:34,091 train 220 [INFO][<module>] train loss: 0.23529175520946682
+2019-12-21 01:19:34,092 train 221 [INFO][<module>] train iou: 0.6959772396765942
+2019-12-21 01:19:34,281 train 171 [INFO][<module>] Epoch: 268
+2019-12-21 01:19:34,281 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 01:27:18,192 train 220 [INFO][<module>] train loss: 0.23459104646737328
+2019-12-21 01:27:18,193 train 221 [INFO][<module>] train iou: 0.6964389596897943
+2019-12-21 01:27:18,384 train 171 [INFO][<module>] Epoch: 269
+2019-12-21 01:27:18,384 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 01:35:02,694 train 220 [INFO][<module>] train loss: 0.2481827773530074
+2019-12-21 01:35:02,694 train 221 [INFO][<module>] train iou: 0.676644330947661
+2019-12-21 01:35:02,887 train 171 [INFO][<module>] Epoch: 270
+2019-12-21 01:35:02,888 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 01:42:46,187 train 220 [INFO][<module>] train loss: 0.25950040841343425
+2019-12-21 01:42:46,187 train 221 [INFO][<module>] train iou: 0.6626122370900158
+2019-12-21 01:42:46,373 train 171 [INFO][<module>] Epoch: 271
+2019-12-21 01:42:46,373 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 01:50:27,736 train 220 [INFO][<module>] train loss: 0.2593338177461014
+2019-12-21 01:50:27,736 train 221 [INFO][<module>] train iou: 0.6622014361465797
+2019-12-21 01:50:27,927 train 171 [INFO][<module>] Epoch: 272
+2019-12-21 01:50:27,927 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 01:58:09,436 train 220 [INFO][<module>] train loss: 0.2609521866547138
+2019-12-21 01:58:09,436 train 221 [INFO][<module>] train iou: 0.6600448804383156
+2019-12-21 01:58:09,621 train 171 [INFO][<module>] Epoch: 273
+2019-12-21 01:58:09,621 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 02:05:52,571 train 220 [INFO][<module>] train loss: 0.2622416814168294
+2019-12-21 02:05:52,571 train 221 [INFO][<module>] train iou: 0.6584131013276351
+2019-12-21 02:05:52,765 train 171 [INFO][<module>] Epoch: 274
+2019-12-21 02:05:52,766 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 02:13:36,510 train 220 [INFO][<module>] train loss: 0.25986612274590565
+2019-12-21 02:13:36,510 train 221 [INFO][<module>] train iou: 0.6614410279526628
+2019-12-21 02:13:36,699 train 171 [INFO][<module>] Epoch: 275
+2019-12-21 02:13:36,699 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 02:21:19,669 train 220 [INFO][<module>] train loss: 0.25792651957133
+2019-12-21 02:21:19,669 train 221 [INFO][<module>] train iou: 0.6636252414024609
+2019-12-21 02:21:19,858 train 171 [INFO][<module>] Epoch: 276
+2019-12-21 02:21:19,858 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 02:29:03,541 train 220 [INFO][<module>] train loss: 0.2571686795263579
+2019-12-21 02:29:03,541 train 221 [INFO][<module>] train iou: 0.6649672836511098
+2019-12-21 02:29:03,733 train 171 [INFO][<module>] Epoch: 277
+2019-12-21 02:29:03,733 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 02:36:47,662 train 220 [INFO][<module>] train loss: 0.2546917141386957
+2019-12-21 02:36:47,662 train 221 [INFO][<module>] train iou: 0.6677278273226487
+2019-12-21 02:36:47,848 train 171 [INFO][<module>] Epoch: 278
+2019-12-21 02:36:47,848 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 02:44:32,363 train 220 [INFO][<module>] train loss: 0.2535176821027942
+2019-12-21 02:44:32,363 train 221 [INFO][<module>] train iou: 0.6692879301841176
+2019-12-21 02:44:32,548 train 171 [INFO][<module>] Epoch: 279
+2019-12-21 02:44:32,549 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 02:52:16,532 train 220 [INFO][<module>] train loss: 0.2514613540184618
+2019-12-21 02:52:16,532 train 221 [INFO][<module>] train iou: 0.6724046033582017
+2019-12-21 02:52:16,725 train 171 [INFO][<module>] Epoch: 280
+2019-12-21 02:52:16,725 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 02:59:59,846 train 220 [INFO][<module>] train loss: 0.24993071677508177
+2019-12-21 02:59:59,846 train 221 [INFO][<module>] train iou: 0.6743345647331972
+2019-12-21 03:00:00,031 train 171 [INFO][<module>] Epoch: 281
+2019-12-21 03:00:00,031 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 03:07:42,708 train 220 [INFO][<module>] train loss: 0.24807927770044666
+2019-12-21 03:07:42,708 train 221 [INFO][<module>] train iou: 0.6771325908609047
+2019-12-21 03:07:42,892 train 171 [INFO][<module>] Epoch: 282
+2019-12-21 03:07:42,892 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 03:15:26,167 train 220 [INFO][<module>] train loss: 0.24740936780216718
+2019-12-21 03:15:26,168 train 221 [INFO][<module>] train iou: 0.677763278668222
+2019-12-21 03:15:26,354 train 171 [INFO][<module>] Epoch: 283
+2019-12-21 03:15:26,354 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 03:23:09,871 train 220 [INFO][<module>] train loss: 0.24490661833824132
+2019-12-21 03:23:09,872 train 221 [INFO][<module>] train iou: 0.6810109753585587
+2019-12-21 03:23:10,057 train 171 [INFO][<module>] Epoch: 284
+2019-12-21 03:23:10,057 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 03:30:53,690 train 220 [INFO][<module>] train loss: 0.24337023486593357
+2019-12-21 03:30:53,690 train 221 [INFO][<module>] train iou: 0.6832946362304357
+2019-12-21 03:30:53,883 train 171 [INFO][<module>] Epoch: 285
+2019-12-21 03:30:53,884 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 03:38:36,781 train 220 [INFO][<module>] train loss: 0.2412851900364012
+2019-12-21 03:38:36,782 train 221 [INFO][<module>] train iou: 0.6858749870402014
+2019-12-21 03:38:36,976 train 171 [INFO][<module>] Epoch: 286
+2019-12-21 03:38:36,976 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 03:46:21,314 train 220 [INFO][<module>] train loss: 0.24081476123043985
+2019-12-21 03:46:21,315 train 221 [INFO][<module>] train iou: 0.6870599923062329
+2019-12-21 03:46:21,506 train 171 [INFO][<module>] Epoch: 287
+2019-12-21 03:46:21,506 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 03:54:04,137 train 220 [INFO][<module>] train loss: 0.23925397432211673
+2019-12-21 03:54:04,138 train 221 [INFO][<module>] train iou: 0.689603643765321
+2019-12-21 03:54:04,324 train 171 [INFO][<module>] Epoch: 288
+2019-12-21 03:54:04,325 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 04:01:47,623 train 220 [INFO][<module>] train loss: 0.23825480505472882
+2019-12-21 04:01:47,623 train 221 [INFO][<module>] train iou: 0.6909727169880938
+2019-12-21 04:01:47,817 train 171 [INFO][<module>] Epoch: 289
+2019-12-21 04:01:47,817 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 04:09:31,371 train 220 [INFO][<module>] train loss: 0.23683070554476393
+2019-12-21 04:09:31,371 train 221 [INFO][<module>] train iou: 0.692257185340382
+2019-12-21 04:09:31,566 train 171 [INFO][<module>] Epoch: 290
+2019-12-21 04:09:31,566 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 04:17:15,510 train 220 [INFO][<module>] train loss: 0.23657620439826438
+2019-12-21 04:17:15,511 train 221 [INFO][<module>] train iou: 0.6932687291266467
+2019-12-21 04:17:15,698 train 171 [INFO][<module>] Epoch: 291
+2019-12-21 04:17:15,698 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 04:24:56,968 train 220 [INFO][<module>] train loss: 0.23486227288792028
+2019-12-21 04:24:56,968 train 221 [INFO][<module>] train iou: 0.6956165451979337
+2019-12-21 04:24:57,155 train 171 [INFO][<module>] Epoch: 292
+2019-12-21 04:24:57,156 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 04:32:37,764 train 220 [INFO][<module>] train loss: 0.2348069850643877
+2019-12-21 04:32:37,764 train 221 [INFO][<module>] train iou: 0.696000212809643
+2019-12-21 04:32:37,958 train 171 [INFO][<module>] Epoch: 293
+2019-12-21 04:32:37,958 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 04:40:21,001 train 220 [INFO][<module>] train loss: 0.23439005794950607
+2019-12-21 04:40:21,002 train 221 [INFO][<module>] train iou: 0.696367736953641
+2019-12-21 04:40:21,189 train 171 [INFO][<module>] Epoch: 294
+2019-12-21 04:40:21,189 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 04:48:02,924 train 220 [INFO][<module>] train loss: 0.23364362747781606
+2019-12-21 04:48:02,925 train 221 [INFO][<module>] train iou: 0.6974675092623035
+2019-12-21 04:48:03,119 train 171 [INFO][<module>] Epoch: 295
+2019-12-21 04:48:03,119 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 04:55:44,469 train 220 [INFO][<module>] train loss: 0.23310379031732026
+2019-12-21 04:55:44,469 train 221 [INFO][<module>] train iou: 0.6983162086605741
+2019-12-21 04:55:44,660 train 171 [INFO][<module>] Epoch: 296
+2019-12-21 04:55:44,660 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 05:03:25,204 train 220 [INFO][<module>] train loss: 0.23277855305759995
+2019-12-21 05:03:25,205 train 221 [INFO][<module>] train iou: 0.6986924907558796
+2019-12-21 05:03:25,395 train 171 [INFO][<module>] Epoch: 297
+2019-12-21 05:03:25,395 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 05:11:07,948 train 220 [INFO][<module>] train loss: 0.23319863600763005
+2019-12-21 05:11:07,949 train 221 [INFO][<module>] train iou: 0.6983748998802484
+2019-12-21 05:11:08,144 train 171 [INFO][<module>] Epoch: 298
+2019-12-21 05:11:08,144 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 05:18:51,320 train 220 [INFO][<module>] train loss: 0.2327944983536948
+2019-12-21 05:18:51,321 train 221 [INFO][<module>] train iou: 0.6990324056023809
+2019-12-21 05:18:51,516 train 171 [INFO][<module>] Epoch: 299
+2019-12-21 05:18:51,517 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 05:26:36,731 train 220 [INFO][<module>] train loss: 0.2462698276396151
+2019-12-21 05:26:36,732 train 221 [INFO][<module>] train iou: 0.679346230412042
+2019-12-21 05:26:36,928 train 171 [INFO][<module>] Epoch: 300
+2019-12-21 05:26:36,928 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 05:34:22,541 train 220 [INFO][<module>] train loss: 0.2540981329551048
+2019-12-21 05:34:22,541 train 221 [INFO][<module>] train iou: 0.669041156914902
+2019-12-21 05:34:22,737 train 171 [INFO][<module>] Epoch: 301
+2019-12-21 05:34:22,737 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 05:42:06,439 train 220 [INFO][<module>] train loss: 0.257869928673863
+2019-12-21 05:42:06,440 train 221 [INFO][<module>] train iou: 0.6640868952753789
+2019-12-21 05:42:06,625 train 171 [INFO][<module>] Epoch: 302
+2019-12-21 05:42:06,626 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 05:49:49,444 train 220 [INFO][<module>] train loss: 0.2575649988370311
+2019-12-21 05:49:49,444 train 221 [INFO][<module>] train iou: 0.6643891514117886
+2019-12-21 05:49:49,647 train 171 [INFO][<module>] Epoch: 303
+2019-12-21 05:49:49,647 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 05:57:31,418 train 220 [INFO][<module>] train loss: 0.25813778793370284
+2019-12-21 05:57:31,419 train 221 [INFO][<module>] train iou: 0.6641036842733281
+2019-12-21 05:57:31,608 train 171 [INFO][<module>] Epoch: 304
+2019-12-21 05:57:31,608 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 06:05:13,605 train 220 [INFO][<module>] train loss: 0.2573363919450779
+2019-12-21 06:05:13,605 train 221 [INFO][<module>] train iou: 0.6644341805403631
+2019-12-21 06:05:13,796 train 171 [INFO][<module>] Epoch: 305
+2019-12-21 06:05:13,796 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 06:12:54,276 train 220 [INFO][<module>] train loss: 0.2563138074345059
+2019-12-21 06:12:54,277 train 221 [INFO][<module>] train iou: 0.6664375250326051
+2019-12-21 06:12:54,467 train 171 [INFO][<module>] Epoch: 306
+2019-12-21 06:12:54,468 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 06:20:37,657 train 220 [INFO][<module>] train loss: 0.255963408836612
+2019-12-21 06:20:37,657 train 221 [INFO][<module>] train iou: 0.666930077266496
+2019-12-21 06:20:37,855 train 171 [INFO][<module>] Epoch: 307
+2019-12-21 06:20:37,855 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 06:28:18,870 train 220 [INFO][<module>] train loss: 0.25336991651893065
+2019-12-21 06:28:18,870 train 221 [INFO][<module>] train iou: 0.6699422849847153
+2019-12-21 06:28:19,065 train 171 [INFO][<module>] Epoch: 308
+2019-12-21 06:28:19,065 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 06:35:59,657 train 220 [INFO][<module>] train loss: 0.2528278179441638
+2019-12-21 06:35:59,657 train 221 [INFO][<module>] train iou: 0.6707504841737852
+2019-12-21 06:35:59,848 train 171 [INFO][<module>] Epoch: 309
+2019-12-21 06:35:59,848 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 06:43:40,214 train 220 [INFO][<module>] train loss: 0.24991373747888238
+2019-12-21 06:43:40,214 train 221 [INFO][<module>] train iou: 0.67411531955184
+2019-12-21 06:43:40,409 train 171 [INFO][<module>] Epoch: 310
+2019-12-21 06:43:40,409 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 06:51:22,179 train 220 [INFO][<module>] train loss: 0.24815696563182857
+2019-12-21 06:51:22,179 train 221 [INFO][<module>] train iou: 0.6769868695597796
+2019-12-21 06:51:22,370 train 171 [INFO][<module>] Epoch: 311
+2019-12-21 06:51:22,370 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 06:59:05,908 train 220 [INFO][<module>] train loss: 0.24657864888709805
+2019-12-21 06:59:05,909 train 221 [INFO][<module>] train iou: 0.6787960031733972
+2019-12-21 06:59:06,105 train 171 [INFO][<module>] Epoch: 312
+2019-12-21 06:59:06,105 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 07:06:48,570 train 220 [INFO][<module>] train loss: 0.24522407332855442
+2019-12-21 07:06:48,570 train 221 [INFO][<module>] train iou: 0.6805957697735563
+2019-12-21 07:06:48,767 train 171 [INFO][<module>] Epoch: 313
+2019-12-21 07:06:48,768 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 07:14:29,815 train 220 [INFO][<module>] train loss: 0.24292112465458687
+2019-12-21 07:14:29,815 train 221 [INFO][<module>] train iou: 0.6836578816005887
+2019-12-21 07:14:30,002 train 171 [INFO][<module>] Epoch: 314
+2019-12-21 07:14:30,002 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 07:22:11,633 train 220 [INFO][<module>] train loss: 0.24118976741527468
+2019-12-21 07:22:11,633 train 221 [INFO][<module>] train iou: 0.6862262361650275
+2019-12-21 07:22:11,830 train 171 [INFO][<module>] Epoch: 315
+2019-12-21 07:22:11,830 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 07:29:54,279 train 220 [INFO][<module>] train loss: 0.2396266403222325
+2019-12-21 07:29:54,280 train 221 [INFO][<module>] train iou: 0.6885443726454074
+2019-12-21 07:29:54,472 train 171 [INFO][<module>] Epoch: 316
+2019-12-21 07:29:54,473 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 07:37:35,097 train 220 [INFO][<module>] train loss: 0.23881746261609524
+2019-12-21 07:37:35,097 train 221 [INFO][<module>] train iou: 0.6898232294748514
+2019-12-21 07:37:35,294 train 171 [INFO][<module>] Epoch: 317
+2019-12-21 07:37:35,294 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 07:45:17,984 train 220 [INFO][<module>] train loss: 0.23781338680272152
+2019-12-21 07:45:17,984 train 221 [INFO][<module>] train iou: 0.6914066945496149
+2019-12-21 07:45:18,179 train 171 [INFO][<module>] Epoch: 318
+2019-12-21 07:45:18,179 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 07:52:58,964 train 220 [INFO][<module>] train loss: 0.2362181989833562
+2019-12-21 07:52:58,964 train 221 [INFO][<module>] train iou: 0.6940723672909591
+2019-12-21 07:52:59,149 train 171 [INFO][<module>] Epoch: 319
+2019-12-21 07:52:59,149 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 08:00:39,613 train 220 [INFO][<module>] train loss: 0.23501757735555823
+2019-12-21 08:00:39,614 train 221 [INFO][<module>] train iou: 0.6953579714979535
+2019-12-21 08:00:39,812 train 171 [INFO][<module>] Epoch: 320
+2019-12-21 08:00:39,812 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 08:08:21,799 train 220 [INFO][<module>] train loss: 0.23378636720605972
+2019-12-21 08:08:21,799 train 221 [INFO][<module>] train iou: 0.6972802931407268
+2019-12-21 08:08:21,988 train 171 [INFO][<module>] Epoch: 321
+2019-12-21 08:08:21,988 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 08:16:04,006 train 220 [INFO][<module>] train loss: 0.23323431350165344
+2019-12-21 08:16:04,006 train 221 [INFO][<module>] train iou: 0.6983159528936542
+2019-12-21 08:16:04,199 train 171 [INFO][<module>] Epoch: 322
+2019-12-21 08:16:04,199 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 08:23:47,254 train 220 [INFO][<module>] train loss: 0.23287644174564567
+2019-12-21 08:23:47,254 train 221 [INFO][<module>] train iou: 0.6988879299363063
+2019-12-21 08:23:47,451 train 171 [INFO][<module>] Epoch: 323
+2019-12-21 08:23:47,451 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 08:31:31,178 train 220 [INFO][<module>] train loss: 0.2318883420341344
+2019-12-21 08:31:31,178 train 221 [INFO][<module>] train iou: 0.7001351579431193
+2019-12-21 08:31:31,370 train 171 [INFO][<module>] Epoch: 324
+2019-12-21 08:31:31,370 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 08:39:13,400 train 220 [INFO][<module>] train loss: 0.23149667770573587
+2019-12-21 08:39:13,400 train 221 [INFO][<module>] train iou: 0.7008866209107673
+2019-12-21 08:39:13,586 train 171 [INFO][<module>] Epoch: 325
+2019-12-21 08:39:13,587 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 08:46:55,929 train 220 [INFO][<module>] train loss: 0.2311498255842061
+2019-12-21 08:46:55,930 train 221 [INFO][<module>] train iou: 0.7011066451640942
+2019-12-21 08:46:56,125 train 171 [INFO][<module>] Epoch: 326
+2019-12-21 08:46:56,125 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 08:54:39,328 train 220 [INFO][<module>] train loss: 0.23054511644422807
+2019-12-21 08:54:39,328 train 221 [INFO][<module>] train iou: 0.7019816856805524
+2019-12-21 08:54:39,531 train 171 [INFO][<module>] Epoch: 327
+2019-12-21 08:54:39,531 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 09:02:21,815 train 220 [INFO][<module>] train loss: 0.23078970942232344
+2019-12-21 09:02:21,815 train 221 [INFO][<module>] train iou: 0.7017221541669665
+2019-12-21 09:02:22,008 train 171 [INFO][<module>] Epoch: 328
+2019-12-21 09:02:22,008 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 09:10:05,043 train 220 [INFO][<module>] train loss: 0.23078681152276317
+2019-12-21 09:10:05,044 train 221 [INFO][<module>] train iou: 0.7015196447022818
+2019-12-21 09:10:05,240 train 171 [INFO][<module>] Epoch: 329
+2019-12-21 09:10:05,240 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 09:17:48,665 train 220 [INFO][<module>] train loss: 0.24420517055875926
+2019-12-21 09:17:48,666 train 221 [INFO][<module>] train iou: 0.6824604234391055
+2019-12-21 09:17:48,854 train 171 [INFO][<module>] Epoch: 330
+2019-12-21 09:17:48,854 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 09:25:30,518 train 220 [INFO][<module>] train loss: 0.25420743598279727
+2019-12-21 09:25:30,519 train 221 [INFO][<module>] train iou: 0.6694115111399593
+2019-12-21 09:25:30,718 train 171 [INFO][<module>] Epoch: 331
+2019-12-21 09:25:30,718 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 09:33:10,643 train 220 [INFO][<module>] train loss: 0.25552489460518063
+2019-12-21 09:33:10,644 train 221 [INFO][<module>] train iou: 0.6677187414563032
+2019-12-21 09:33:10,834 train 171 [INFO][<module>] Epoch: 332
+2019-12-21 09:33:10,834 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 09:40:51,667 train 220 [INFO][<module>] train loss: 0.2571654510417771
+2019-12-21 09:40:51,667 train 221 [INFO][<module>] train iou: 0.665226708858118
+2019-12-21 09:40:51,864 train 171 [INFO][<module>] Epoch: 333
+2019-12-21 09:40:51,864 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 09:48:33,669 train 220 [INFO][<module>] train loss: 0.25672357551979297
+2019-12-21 09:48:33,669 train 221 [INFO][<module>] train iou: 0.6659266524419903
+2019-12-21 09:48:33,858 train 171 [INFO][<module>] Epoch: 334
+2019-12-21 09:48:33,858 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 09:56:16,457 train 220 [INFO][<module>] train loss: 0.25513055940669793
+2019-12-21 09:56:16,458 train 221 [INFO][<module>] train iou: 0.6676382024267222
+2019-12-21 09:56:16,651 train 171 [INFO][<module>] Epoch: 335
+2019-12-21 09:56:16,651 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 10:03:58,845 train 220 [INFO][<module>] train loss: 0.25358190992063145
+2019-12-21 10:03:58,846 train 221 [INFO][<module>] train iou: 0.669647154870553
+2019-12-21 10:03:59,044 train 171 [INFO][<module>] Epoch: 336
+2019-12-21 10:03:59,044 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 10:11:42,160 train 220 [INFO][<module>] train loss: 0.25272005349899385
+2019-12-21 10:11:42,160 train 221 [INFO][<module>] train iou: 0.670803371048526
+2019-12-21 10:11:42,350 train 171 [INFO][<module>] Epoch: 337
+2019-12-21 10:11:42,350 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 10:19:22,701 train 220 [INFO][<module>] train loss: 0.25181156788209474
+2019-12-21 10:19:22,701 train 221 [INFO][<module>] train iou: 0.6716078561465969
+2019-12-21 10:19:22,893 train 171 [INFO][<module>] Epoch: 338
+2019-12-21 10:19:22,893 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 10:27:03,924 train 220 [INFO][<module>] train loss: 0.24910121438679872
+2019-12-21 10:27:03,924 train 221 [INFO][<module>] train iou: 0.6754266440614551
+2019-12-21 10:27:04,124 train 171 [INFO][<module>] Epoch: 339
+2019-12-21 10:27:04,124 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 10:34:46,101 train 220 [INFO][<module>] train loss: 0.2487209526577381
+2019-12-21 10:34:46,101 train 221 [INFO][<module>] train iou: 0.6755134818439651
+2019-12-21 10:34:46,301 train 171 [INFO][<module>] Epoch: 340
+2019-12-21 10:34:46,301 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 10:42:27,027 train 220 [INFO][<module>] train loss: 0.24575570531766422
+2019-12-21 10:42:27,027 train 221 [INFO][<module>] train iou: 0.6801184158610105
+2019-12-21 10:42:27,228 train 171 [INFO][<module>] Epoch: 341
+2019-12-21 10:42:27,228 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 10:50:08,053 train 220 [INFO][<module>] train loss: 0.24491693656452576
+2019-12-21 10:50:08,054 train 221 [INFO][<module>] train iou: 0.6807324352116547
+2019-12-21 10:50:08,252 train 171 [INFO][<module>] Epoch: 342
+2019-12-21 10:50:08,252 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 10:57:48,349 train 220 [INFO][<module>] train loss: 0.24250722011733136
+2019-12-21 10:57:48,349 train 221 [INFO][<module>] train iou: 0.6842928027057797
+2019-12-21 10:57:48,551 train 171 [INFO][<module>] Epoch: 343
+2019-12-21 10:57:48,551 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 11:05:30,231 train 220 [INFO][<module>] train loss: 0.24117552205569012
+2019-12-21 11:05:30,231 train 221 [INFO][<module>] train iou: 0.6860031009734977
+2019-12-21 11:05:30,423 train 171 [INFO][<module>] Epoch: 344
+2019-12-21 11:05:30,424 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 11:13:13,290 train 220 [INFO][<module>] train loss: 0.23966809525232924
+2019-12-21 11:13:13,290 train 221 [INFO][<module>] train iou: 0.6887411057030552
+2019-12-21 11:13:13,487 train 171 [INFO][<module>] Epoch: 345
+2019-12-21 11:13:13,487 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 11:20:54,460 train 220 [INFO][<module>] train loss: 0.23792370175472413
+2019-12-21 11:20:54,460 train 221 [INFO][<module>] train iou: 0.6904074231825824
+2019-12-21 11:20:54,661 train 171 [INFO][<module>] Epoch: 346
+2019-12-21 11:20:54,661 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 11:28:35,380 train 220 [INFO][<module>] train loss: 0.23671115036765333
+2019-12-21 11:28:35,380 train 221 [INFO][<module>] train iou: 0.692961966207784
+2019-12-21 11:28:35,572 train 171 [INFO][<module>] Epoch: 347
+2019-12-21 11:28:35,572 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 11:36:14,193 train 220 [INFO][<module>] train loss: 0.2352443181906485
+2019-12-21 11:36:14,193 train 221 [INFO][<module>] train iou: 0.6951763750494346
+2019-12-21 11:36:14,392 train 171 [INFO][<module>] Epoch: 348
+2019-12-21 11:36:14,392 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 11:43:53,090 train 220 [INFO][<module>] train loss: 0.23420384104805764
+2019-12-21 11:43:53,090 train 221 [INFO][<module>] train iou: 0.6959236404461226
+2019-12-21 11:43:53,282 train 171 [INFO][<module>] Epoch: 349
+2019-12-21 11:43:53,282 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 11:51:33,855 train 220 [INFO][<module>] train loss: 0.2335300169609211
+2019-12-21 11:51:33,855 train 221 [INFO][<module>] train iou: 0.6967463700847089
+2019-12-21 11:51:34,048 train 171 [INFO][<module>] Epoch: 350
+2019-12-21 11:51:34,048 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 11:59:15,002 train 220 [INFO][<module>] train loss: 0.23248638920109682
+2019-12-21 11:59:15,003 train 221 [INFO][<module>] train iou: 0.6988090739542445
+2019-12-21 11:59:15,201 train 171 [INFO][<module>] Epoch: 351
+2019-12-21 11:59:15,201 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 12:06:56,085 train 220 [INFO][<module>] train loss: 0.23174769875377116
+2019-12-21 12:06:56,086 train 221 [INFO][<module>] train iou: 0.6998073174909496
+2019-12-21 12:06:56,283 train 171 [INFO][<module>] Epoch: 352
+2019-12-21 12:06:56,283 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 12:14:37,972 train 220 [INFO][<module>] train loss: 0.23099817170037162
+2019-12-21 12:14:37,972 train 221 [INFO][<module>] train iou: 0.7013455797407637
+2019-12-21 12:14:38,175 train 171 [INFO][<module>] Epoch: 353
+2019-12-21 12:14:38,175 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 12:22:19,716 train 220 [INFO][<module>] train loss: 0.2301776958535416
+2019-12-21 12:22:19,716 train 221 [INFO][<module>] train iou: 0.7018546067062347
+2019-12-21 12:22:19,909 train 171 [INFO][<module>] Epoch: 354
+2019-12-21 12:22:19,909 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 12:30:01,590 train 220 [INFO][<module>] train loss: 0.2297191270674118
+2019-12-21 12:30:01,591 train 221 [INFO][<module>] train iou: 0.7030530930626323
+2019-12-21 12:30:01,792 train 171 [INFO][<module>] Epoch: 355
+2019-12-21 12:30:01,792 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 12:37:43,394 train 220 [INFO][<module>] train loss: 0.22953404446041545
+2019-12-21 12:37:43,394 train 221 [INFO][<module>] train iou: 0.7034914940789766
+2019-12-21 12:37:43,597 train 171 [INFO][<module>] Epoch: 356
+2019-12-21 12:37:43,597 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 12:45:24,169 train 220 [INFO][<module>] train loss: 0.22910010588891577
+2019-12-21 12:45:24,169 train 221 [INFO][<module>] train iou: 0.7034875362891808
+2019-12-21 12:45:24,362 train 171 [INFO][<module>] Epoch: 357
+2019-12-21 12:45:24,362 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 12:53:04,277 train 220 [INFO][<module>] train loss: 0.22903627804433457
+2019-12-21 12:53:04,278 train 221 [INFO][<module>] train iou: 0.7040001952385377
+2019-12-21 12:53:04,470 train 171 [INFO][<module>] Epoch: 358
+2019-12-21 12:53:04,471 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 13:00:45,405 train 220 [INFO][<module>] train loss: 0.22830413693330104
+2019-12-21 13:00:45,405 train 221 [INFO][<module>] train iou: 0.7052037151701196
+2019-12-21 13:00:45,622 train 171 [INFO][<module>] Epoch: 359
+2019-12-21 13:00:45,622 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 13:08:27,510 train 220 [INFO][<module>] train loss: 0.24189777842876486
+2019-12-21 13:08:27,511 train 221 [INFO][<module>] train iou: 0.6852408207700118
+2019-12-21 13:08:27,711 train 171 [INFO][<module>] Epoch: 360
+2019-12-21 13:08:27,711 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 13:16:07,382 train 220 [INFO][<module>] train loss: 0.2511876887243605
+2019-12-21 13:16:07,382 train 221 [INFO][<module>] train iou: 0.6735772478600591
+2019-12-21 13:16:07,582 train 171 [INFO][<module>] Epoch: 361
+2019-12-21 13:16:07,582 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 13:23:48,097 train 220 [INFO][<module>] train loss: 0.25543013957614447
+2019-12-21 13:23:48,097 train 221 [INFO][<module>] train iou: 0.6674356655159389
+2019-12-21 13:23:48,289 train 171 [INFO][<module>] Epoch: 362
+2019-12-21 13:23:48,289 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 13:31:28,077 train 220 [INFO][<module>] train loss: 0.2540070310686574
+2019-12-21 13:31:28,077 train 221 [INFO][<module>] train iou: 0.6685410955340829
+2019-12-21 13:31:28,268 train 171 [INFO][<module>] Epoch: 363
+2019-12-21 13:31:28,268 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 13:39:08,995 train 220 [INFO][<module>] train loss: 0.2555733565930967
+2019-12-21 13:39:08,996 train 221 [INFO][<module>] train iou: 0.6675496156318739
+2019-12-21 13:39:09,188 train 171 [INFO][<module>] Epoch: 364
+2019-12-21 13:39:09,188 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 13:46:50,280 train 220 [INFO][<module>] train loss: 0.253470635624847
+2019-12-21 13:46:50,281 train 221 [INFO][<module>] train iou: 0.6698989250232897
+2019-12-21 13:46:50,471 train 171 [INFO][<module>] Epoch: 365
+2019-12-21 13:46:50,471 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 13:54:32,583 train 220 [INFO][<module>] train loss: 0.25278113230510996
+2019-12-21 13:54:32,583 train 221 [INFO][<module>] train iou: 0.6706988651876274
+2019-12-21 13:54:32,783 train 171 [INFO][<module>] Epoch: 366
+2019-12-21 13:54:32,783 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 14:02:12,227 train 220 [INFO][<module>] train loss: 0.253723700088684
+2019-12-21 14:02:12,227 train 221 [INFO][<module>] train iou: 0.6696009502074423
+2019-12-21 14:02:12,416 train 171 [INFO][<module>] Epoch: 367
+2019-12-21 14:02:12,416 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 14:09:51,668 train 220 [INFO][<module>] train loss: 0.25074438389503595
+2019-12-21 14:09:51,668 train 221 [INFO][<module>] train iou: 0.6726013907484275
+2019-12-21 14:09:51,856 train 171 [INFO][<module>] Epoch: 368
+2019-12-21 14:09:51,856 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 14:17:29,824 train 220 [INFO][<module>] train loss: 0.24889919282209994
+2019-12-21 14:17:29,824 train 221 [INFO][<module>] train iou: 0.6759346199030286
+2019-12-21 14:17:30,014 train 171 [INFO][<module>] Epoch: 369
+2019-12-21 14:17:30,014 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 14:25:09,019 train 220 [INFO][<module>] train loss: 0.24701415107707786
+2019-12-21 14:25:09,019 train 221 [INFO][<module>] train iou: 0.678400877975835
+2019-12-21 14:25:09,208 train 171 [INFO][<module>] Epoch: 370
+2019-12-21 14:25:09,209 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 14:32:50,458 train 220 [INFO][<module>] train loss: 0.24501171517452408
+2019-12-21 14:32:50,458 train 221 [INFO][<module>] train iou: 0.6813880057502554
+2019-12-21 14:32:50,651 train 171 [INFO][<module>] Epoch: 371
+2019-12-21 14:32:50,652 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 14:40:31,631 train 220 [INFO][<module>] train loss: 0.2443327928331966
+2019-12-21 14:40:31,631 train 221 [INFO][<module>] train iou: 0.6813809341456595
+2019-12-21 14:40:31,828 train 171 [INFO][<module>] Epoch: 372
+2019-12-21 14:40:31,828 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 14:48:11,541 train 220 [INFO][<module>] train loss: 0.2407876748328257
+2019-12-21 14:48:11,542 train 221 [INFO][<module>] train iou: 0.6871270251644538
+2019-12-21 14:48:11,747 train 171 [INFO][<module>] Epoch: 373
+2019-12-21 14:48:11,747 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 14:55:51,869 train 220 [INFO][<module>] train loss: 0.23981976473973657
+2019-12-21 14:55:51,870 train 221 [INFO][<module>] train iou: 0.6880497827292865
+2019-12-21 14:55:52,068 train 171 [INFO][<module>] Epoch: 374
+2019-12-21 14:55:52,068 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 15:03:34,322 train 220 [INFO][<module>] train loss: 0.2380759044729098
+2019-12-21 15:03:34,322 train 221 [INFO][<module>] train iou: 0.6902620966733689
+2019-12-21 15:03:34,520 train 171 [INFO][<module>] Epoch: 375
+2019-12-21 15:03:34,520 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 15:11:14,365 train 220 [INFO][<module>] train loss: 0.2366076701317572
+2019-12-21 15:11:14,365 train 221 [INFO][<module>] train iou: 0.6924787186834581
+2019-12-21 15:11:14,564 train 171 [INFO][<module>] Epoch: 376
+2019-12-21 15:11:14,564 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 15:18:55,598 train 220 [INFO][<module>] train loss: 0.23515864940805467
+2019-12-21 15:18:55,598 train 221 [INFO][<module>] train iou: 0.6949246379749263
+2019-12-21 15:18:55,799 train 171 [INFO][<module>] Epoch: 377
+2019-12-21 15:18:55,799 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 15:26:37,142 train 220 [INFO][<module>] train loss: 0.2339814157799037
+2019-12-21 15:26:37,143 train 221 [INFO][<module>] train iou: 0.6965331874203025
+2019-12-21 15:26:37,346 train 171 [INFO][<module>] Epoch: 378
+2019-12-21 15:26:37,346 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 15:34:18,283 train 220 [INFO][<module>] train loss: 0.23288718658665616
+2019-12-21 15:34:18,283 train 221 [INFO][<module>] train iou: 0.6978634436152986
+2019-12-21 15:34:18,482 train 171 [INFO][<module>] Epoch: 379
+2019-12-21 15:34:18,482 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 15:42:00,711 train 220 [INFO][<module>] train loss: 0.23212326014483417
+2019-12-21 15:42:00,711 train 221 [INFO][<module>] train iou: 0.6981077577545047
+2019-12-21 15:42:00,910 train 171 [INFO][<module>] Epoch: 380
+2019-12-21 15:42:00,910 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 15:49:42,305 train 220 [INFO][<module>] train loss: 0.2305948694647362
+2019-12-21 15:49:42,305 train 221 [INFO][<module>] train iou: 0.7010920319558213
+2019-12-21 15:49:42,494 train 171 [INFO][<module>] Epoch: 381
+2019-12-21 15:49:42,494 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 15:57:24,566 train 220 [INFO][<module>] train loss: 0.22958331768360202
+2019-12-21 15:57:24,566 train 221 [INFO][<module>] train iou: 0.7024714494997131
+2019-12-21 15:57:24,763 train 171 [INFO][<module>] Epoch: 382
+2019-12-21 15:57:24,763 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 16:05:05,444 train 220 [INFO][<module>] train loss: 0.22889363840974944
+2019-12-21 16:05:05,444 train 221 [INFO][<module>] train iou: 0.7037874007185108
+2019-12-21 16:05:05,638 train 171 [INFO][<module>] Epoch: 383
+2019-12-21 16:05:05,639 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 16:12:47,784 train 220 [INFO][<module>] train loss: 0.2289194051264111
+2019-12-21 16:12:47,784 train 221 [INFO][<module>] train iou: 0.7037565947195085
+2019-12-21 16:12:47,976 train 171 [INFO][<module>] Epoch: 384
+2019-12-21 16:12:47,976 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 16:20:28,094 train 220 [INFO][<module>] train loss: 0.2285485346911331
+2019-12-21 16:20:28,094 train 221 [INFO][<module>] train iou: 0.7044241315956394
+2019-12-21 16:20:28,293 train 171 [INFO][<module>] Epoch: 385
+2019-12-21 16:20:28,293 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 16:28:07,255 train 220 [INFO][<module>] train loss: 0.22773720218677712
+2019-12-21 16:28:07,255 train 221 [INFO][<module>] train iou: 0.7058202618325917
+2019-12-21 16:28:07,444 train 171 [INFO][<module>] Epoch: 386
+2019-12-21 16:28:07,444 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 16:35:46,448 train 220 [INFO][<module>] train loss: 0.22784076274846138
+2019-12-21 16:35:46,448 train 221 [INFO][<module>] train iou: 0.705454045878122
+2019-12-21 16:35:46,648 train 171 [INFO][<module>] Epoch: 387
+2019-12-21 16:35:46,648 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 16:43:27,271 train 220 [INFO][<module>] train loss: 0.2273757131613465
+2019-12-21 16:43:27,272 train 221 [INFO][<module>] train iou: 0.7061644167500135
+2019-12-21 16:43:27,475 train 171 [INFO][<module>] Epoch: 388
+2019-12-21 16:43:27,475 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 16:51:07,861 train 220 [INFO][<module>] train loss: 0.22712557414164045
+2019-12-21 16:51:07,861 train 221 [INFO][<module>] train iou: 0.706763813640085
+2019-12-21 16:51:08,059 train 171 [INFO][<module>] Epoch: 389
+2019-12-21 16:51:08,059 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 16:58:50,363 train 220 [INFO][<module>] train loss: 0.2406195876273242
+2019-12-21 16:58:50,363 train 221 [INFO][<module>] train iou: 0.68752007427015
+2019-12-21 16:58:50,558 train 171 [INFO][<module>] Epoch: 390
+2019-12-21 16:58:50,558 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 17:06:31,999 train 220 [INFO][<module>] train loss: 0.2501261403363963
+2019-12-21 17:06:31,999 train 221 [INFO][<module>] train iou: 0.6748448649576356
+2019-12-21 17:06:32,194 train 171 [INFO][<module>] Epoch: 391
+2019-12-21 17:06:32,194 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 17:14:13,593 train 220 [INFO][<module>] train loss: 0.2515972463871895
+2019-12-21 17:14:13,593 train 221 [INFO][<module>] train iou: 0.6729107282274682
+2019-12-21 17:14:13,790 train 171 [INFO][<module>] Epoch: 392
+2019-12-21 17:14:13,791 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 17:21:53,723 train 220 [INFO][<module>] train loss: 0.2535073152094176
+2019-12-21 17:21:53,723 train 221 [INFO][<module>] train iou: 0.6703672833052395
+2019-12-21 17:21:53,926 train 171 [INFO][<module>] Epoch: 393
+2019-12-21 17:21:53,926 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 17:29:33,524 train 220 [INFO][<module>] train loss: 0.25475723464480954
+2019-12-21 17:29:33,524 train 221 [INFO][<module>] train iou: 0.6683520769320629
+2019-12-21 17:29:33,726 train 171 [INFO][<module>] Epoch: 394
+2019-12-21 17:29:33,726 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 17:37:13,768 train 220 [INFO][<module>] train loss: 0.25376804188044383
+2019-12-21 17:37:13,768 train 221 [INFO][<module>] train iou: 0.6696391841678208
+2019-12-21 17:37:13,960 train 171 [INFO][<module>] Epoch: 395
+2019-12-21 17:37:13,960 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 17:44:53,419 train 220 [INFO][<module>] train loss: 0.25168699588037097
+2019-12-21 17:44:53,419 train 221 [INFO][<module>] train iou: 0.672019638653155
+2019-12-21 17:44:53,619 train 171 [INFO][<module>] Epoch: 396
+2019-12-21 17:44:53,619 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 17:52:34,454 train 220 [INFO][<module>] train loss: 0.2501688785725571
+2019-12-21 17:52:34,454 train 221 [INFO][<module>] train iou: 0.6742831277587645
+2019-12-21 17:52:34,653 train 171 [INFO][<module>] Epoch: 397
+2019-12-21 17:52:34,653 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 18:00:14,445 train 220 [INFO][<module>] train loss: 0.2485196469006715
+2019-12-21 18:00:14,445 train 221 [INFO][<module>] train iou: 0.6767397148308412
+2019-12-21 18:00:14,645 train 171 [INFO][<module>] Epoch: 398
+2019-12-21 18:00:14,645 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 18:07:56,191 train 220 [INFO][<module>] train loss: 0.24664855028443064
+2019-12-21 18:07:56,191 train 221 [INFO][<module>] train iou: 0.6788015558828864
+2019-12-21 18:07:56,393 train 171 [INFO][<module>] Epoch: 399
+2019-12-21 18:07:56,393 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 18:15:38,366 train 220 [INFO][<module>] train loss: 0.24555408372622145
+2019-12-21 18:15:38,366 train 221 [INFO][<module>] train iou: 0.6808424887182264
+2019-12-21 18:15:38,562 train 171 [INFO][<module>] Epoch: 400
+2019-12-21 18:15:38,562 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 18:23:20,183 train 220 [INFO][<module>] train loss: 0.24379822350913025
+2019-12-21 18:23:20,184 train 221 [INFO][<module>] train iou: 0.6822201884246953
+2019-12-21 18:23:20,386 train 171 [INFO][<module>] Epoch: 401
+2019-12-21 18:23:20,387 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 18:31:00,791 train 220 [INFO][<module>] train loss: 0.24131756178056352
+2019-12-21 18:31:00,791 train 221 [INFO][<module>] train iou: 0.68618813369489
+2019-12-21 18:31:00,992 train 171 [INFO][<module>] Epoch: 402
+2019-12-21 18:31:00,992 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 18:38:42,313 train 220 [INFO][<module>] train loss: 0.23936216763976448
+2019-12-21 18:38:42,314 train 221 [INFO][<module>] train iou: 0.6890256153577401
+2019-12-21 18:38:42,519 train 171 [INFO][<module>] Epoch: 403
+2019-12-21 18:38:42,519 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 18:46:22,730 train 220 [INFO][<module>] train loss: 0.23736724111969623
+2019-12-21 18:46:22,730 train 221 [INFO][<module>] train iou: 0.6909061489315292
+2019-12-21 18:46:22,931 train 171 [INFO][<module>] Epoch: 404
+2019-12-21 18:46:22,931 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 18:54:03,048 train 220 [INFO][<module>] train loss: 0.23613831420940182
+2019-12-21 18:54:03,048 train 221 [INFO][<module>] train iou: 0.6928506883401745
+2019-12-21 18:54:03,251 train 171 [INFO][<module>] Epoch: 405
+2019-12-21 18:54:03,251 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 19:01:43,506 train 220 [INFO][<module>] train loss: 0.2340590659817461
+2019-12-21 19:01:43,506 train 221 [INFO][<module>] train iou: 0.6958412967861264
+2019-12-21 19:01:43,706 train 171 [INFO][<module>] Epoch: 406
+2019-12-21 19:01:43,706 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 19:09:24,665 train 220 [INFO][<module>] train loss: 0.23335153255799804
+2019-12-21 19:09:24,665 train 221 [INFO][<module>] train iou: 0.6970534486321851
+2019-12-21 19:09:24,862 train 171 [INFO][<module>] Epoch: 407
+2019-12-21 19:09:24,862 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 19:17:06,013 train 220 [INFO][<module>] train loss: 0.23198184702131483
+2019-12-21 19:17:06,014 train 221 [INFO][<module>] train iou: 0.6987111909216085
+2019-12-21 19:17:06,210 train 171 [INFO][<module>] Epoch: 408
+2019-12-21 19:17:06,210 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 19:24:48,301 train 220 [INFO][<module>] train loss: 0.23079632864857363
+2019-12-21 19:24:48,301 train 221 [INFO][<module>] train iou: 0.7005165742505027
+2019-12-21 19:24:48,497 train 171 [INFO][<module>] Epoch: 409
+2019-12-21 19:24:48,497 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 19:32:29,555 train 220 [INFO][<module>] train loss: 0.22933230451261155
+2019-12-21 19:32:29,555 train 221 [INFO][<module>] train iou: 0.7033389153352165
+2019-12-21 19:32:29,751 train 171 [INFO][<module>] Epoch: 410
+2019-12-21 19:32:29,751 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 19:40:11,229 train 220 [INFO][<module>] train loss: 0.22916694000513868
+2019-12-21 19:40:11,230 train 221 [INFO][<module>] train iou: 0.7028683644243454
+2019-12-21 19:40:11,420 train 171 [INFO][<module>] Epoch: 411
+2019-12-21 19:40:11,420 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 19:47:52,424 train 220 [INFO][<module>] train loss: 0.22818225130488978
+2019-12-21 19:47:52,424 train 221 [INFO][<module>] train iou: 0.7044692451461906
+2019-12-21 19:47:52,609 train 171 [INFO][<module>] Epoch: 412
+2019-12-21 19:47:52,609 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 19:55:32,953 train 220 [INFO][<module>] train loss: 0.22736391640873468
+2019-12-21 19:55:32,953 train 221 [INFO][<module>] train iou: 0.7061957258861814
+2019-12-21 19:55:33,145 train 171 [INFO][<module>] Epoch: 413
+2019-12-21 19:55:33,145 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 20:03:15,215 train 220 [INFO][<module>] train loss: 0.22659774515965972
+2019-12-21 20:03:15,215 train 221 [INFO][<module>] train iou: 0.7066507347569695
+2019-12-21 20:03:15,398 train 171 [INFO][<module>] Epoch: 414
+2019-12-21 20:03:15,398 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-21 20:10:57,927 train 220 [INFO][<module>] train loss: 0.22604216590072168
+2019-12-21 20:10:57,927 train 221 [INFO][<module>] train iou: 0.7073198212241244
+2019-12-21 20:10:58,115 train 171 [INFO][<module>] Epoch: 415
+2019-12-21 20:10:58,115 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-21 20:18:41,577 train 220 [INFO][<module>] train loss: 0.22542245279658923
+2019-12-21 20:18:41,577 train 221 [INFO][<module>] train iou: 0.7087067773932125
+2019-12-21 20:18:41,766 train 171 [INFO][<module>] Epoch: 416
+2019-12-21 20:18:41,766 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-21 20:26:21,171 train 220 [INFO][<module>] train loss: 0.22585325404650433
+2019-12-21 20:26:21,171 train 221 [INFO][<module>] train iou: 0.708199409581884
+2019-12-21 20:26:21,360 train 171 [INFO][<module>] Epoch: 417
+2019-12-21 20:26:21,360 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-21 20:34:02,460 train 220 [INFO][<module>] train loss: 0.2258020754314031
+2019-12-21 20:34:02,460 train 221 [INFO][<module>] train iou: 0.7083786648879378
+2019-12-21 20:34:02,643 train 171 [INFO][<module>] Epoch: 418
+2019-12-21 20:34:02,643 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-21 20:41:43,312 train 220 [INFO][<module>] train loss: 0.22519685804643214
+2019-12-21 20:41:43,312 train 221 [INFO][<module>] train iou: 0.7091995663614116
+2019-12-21 20:41:43,555 train 171 [INFO][<module>] Epoch: 419
+2019-12-21 20:41:43,555 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-21 20:49:27,228 train 220 [INFO][<module>] train loss: 0.23823999846824492
+2019-12-21 20:49:27,228 train 221 [INFO][<module>] train iou: 0.690139959802905
+2019-12-21 20:49:27,420 train 171 [INFO][<module>] Epoch: 420
+2019-12-21 20:49:27,420 train 172 [INFO][<module>] Learning rate: 0.006980826633788957
+2019-12-21 20:57:08,872 train 220 [INFO][<module>] train loss: 0.2484401403753846
+2019-12-21 20:57:08,872 train 221 [INFO][<module>] train iou: 0.6768653465340136
+2019-12-21 20:57:09,065 train 171 [INFO][<module>] Epoch: 421
+2019-12-21 20:57:09,065 train 172 [INFO][<module>] Learning rate: 0.00692351660256832
+2019-12-21 21:04:48,706 train 220 [INFO][<module>] train loss: 0.2502083586723315
+2019-12-21 21:04:48,706 train 221 [INFO][<module>] train iou: 0.6747801114794614
+2019-12-21 21:04:48,913 train 171 [INFO][<module>] Epoch: 422
+2019-12-21 21:04:48,913 train 172 [INFO][<module>] Learning rate: 0.0068286978070330375
+2019-12-21 21:12:28,346 train 220 [INFO][<module>] train loss: 0.2508852498398887
+2019-12-21 21:12:28,346 train 221 [INFO][<module>] train iou: 0.6743109959931672
+2019-12-21 21:12:28,528 train 171 [INFO][<module>] Epoch: 423
+2019-12-21 21:12:28,528 train 172 [INFO][<module>] Learning rate: 0.006697409101749103
+2019-12-21 21:20:09,030 train 220 [INFO][<module>] train loss: 0.2517996290416429
+2019-12-21 21:20:09,030 train 221 [INFO][<module>] train iou: 0.6724687215669382
+2019-12-21 21:20:09,218 train 171 [INFO][<module>] Epoch: 424
+2019-12-21 21:20:09,218 train 172 [INFO][<module>] Learning rate: 0.006531088913245536
+2019-12-21 21:27:49,936 train 220 [INFO][<module>] train loss: 0.25055422390550874
+2019-12-21 21:27:49,936 train 221 [INFO][<module>] train iou: 0.6737889523232256
+2019-12-21 21:27:50,117 train 171 [INFO][<module>] Epoch: 425
+2019-12-21 21:27:50,117 train 172 [INFO][<module>] Learning rate: 0.0063315594803123165
+2019-12-21 21:35:31,117 train 220 [INFO][<module>] train loss: 0.24874610491473265
+2019-12-21 21:35:31,118 train 221 [INFO][<module>] train iou: 0.6766540938659136
+2019-12-21 21:35:31,308 train 171 [INFO][<module>] Epoch: 426
+2019-12-21 21:35:31,308 train 172 [INFO][<module>] Learning rate: 0.00610100688917088
+2019-12-21 21:43:12,774 train 220 [INFO][<module>] train loss: 0.24900846333816798
+2019-12-21 21:43:12,775 train 221 [INFO][<module>] train iou: 0.6750914978706211
+2019-12-21 21:43:12,966 train 171 [INFO][<module>] Epoch: 427
+2019-12-21 21:43:12,966 train 172 [INFO][<module>] Learning rate: 0.005841957122256004
+2019-12-21 21:50:54,877 train 220 [INFO][<module>] train loss: 0.24689029869607804
+2019-12-21 21:50:54,877 train 221 [INFO][<module>] train iou: 0.6785637600120854
+2019-12-21 21:50:55,060 train 171 [INFO][<module>] Epoch: 428
+2019-12-21 21:50:55,060 train 172 [INFO][<module>] Learning rate: 0.005557248383023656
+2019-12-21 21:58:37,378 train 220 [INFO][<module>] train loss: 0.2438223574699376
+2019-12-21 21:58:37,378 train 221 [INFO][<module>] train iou: 0.6827626374940609
+2019-12-21 21:58:37,562 train 171 [INFO][<module>] Epoch: 429
+2019-12-21 21:58:37,562 train 172 [INFO][<module>] Learning rate: 0.00525
+2019-12-21 22:06:20,021 train 220 [INFO][<module>] train loss: 0.2437430318156477
+2019-12-21 22:06:20,021 train 221 [INFO][<module>] train iou: 0.6824357187027664
+2019-12-21 22:06:20,206 train 171 [INFO][<module>] Epoch: 430
+2019-12-21 22:06:20,206 train 172 [INFO][<module>] Learning rate: 0.004923578250765301
+2019-12-21 22:14:00,713 train 220 [INFO][<module>] train loss: 0.24065381358769605
+2019-12-21 22:14:00,713 train 221 [INFO][<module>] train iou: 0.6862059521288123
+2019-12-21 22:14:00,896 train 171 [INFO][<module>] Epoch: 431
+2019-12-21 22:14:00,896 train 172 [INFO][<module>] Learning rate: 0.004581559480312316
+2019-12-21 22:21:41,607 train 220 [INFO][<module>] train loss: 0.23904640159823679
+2019-12-21 22:21:41,608 train 221 [INFO][<module>] train iou: 0.6891994091609178
+2019-12-21 22:21:41,855 train 171 [INFO][<module>] Epoch: 432
+2019-12-21 22:21:41,855 train 172 [INFO][<module>] Learning rate: 0.004227690917862157
+2019-12-21 22:29:21,909 train 220 [INFO][<module>] train loss: 0.23757374567616266
+2019-12-21 22:29:21,909 train 221 [INFO][<module>] train iou: 0.690741943125718
+2019-12-21 22:29:22,097 train 171 [INFO][<module>] Epoch: 433
+2019-12-21 22:29:22,097 train 172 [INFO][<module>] Learning rate: 0.003865849621436787
+2019-12-21 22:37:01,841 train 220 [INFO][<module>] train loss: 0.23562494978960918
+2019-12-21 22:37:01,841 train 221 [INFO][<module>] train iou: 0.6936484699162441
+2019-12-21 22:37:02,034 train 171 [INFO][<module>] Epoch: 434
+2019-12-21 22:37:02,034 train 172 [INFO][<module>] Learning rate: 0.003500000000000001
+2019-12-21 22:44:41,686 train 220 [INFO][<module>] train loss: 0.23478690151012305
+2019-12-21 22:44:41,687 train 221 [INFO][<module>] train iou: 0.6950580296834618
+2019-12-21 22:44:41,873 train 171 [INFO][<module>] Epoch: 435
+2019-12-21 22:44:41,873 train 172 [INFO][<module>] Learning rate: 0.0031341503785632134
+2019-12-21 22:52:20,568 train 220 [INFO][<module>] train loss: 0.2329744240551284
+2019-12-21 22:52:20,568 train 221 [INFO][<module>] train iou: 0.6970783971014385
+2019-12-21 22:52:20,753 train 171 [INFO][<module>] Epoch: 436
+2019-12-21 22:52:20,754 train 172 [INFO][<module>] Learning rate: 0.0027723090821378422
+2019-12-21 23:00:01,668 train 220 [INFO][<module>] train loss: 0.23168925946007674
+2019-12-21 23:00:01,668 train 221 [INFO][<module>] train iou: 0.6985901863936792
+2019-12-21 23:00:01,855 train 171 [INFO][<module>] Epoch: 437
+2019-12-21 23:00:01,855 train 172 [INFO][<module>] Learning rate: 0.0024184405196876844
+2019-12-21 23:07:43,796 train 220 [INFO][<module>] train loss: 0.23058933722049701
+2019-12-21 23:07:43,797 train 221 [INFO][<module>] train iou: 0.7007652935924749
+2019-12-21 23:07:43,987 train 171 [INFO][<module>] Epoch: 438
+2019-12-21 23:07:43,988 train 172 [INFO][<module>] Learning rate: 0.0020764217492347
+2019-12-21 23:15:24,522 train 220 [INFO][<module>] train loss: 0.22918909582425448
+2019-12-21 23:15:24,522 train 221 [INFO][<module>] train iou: 0.7023809904140546
+2019-12-21 23:15:24,707 train 171 [INFO][<module>] Epoch: 439
+2019-12-21 23:15:24,707 train 172 [INFO][<module>] Learning rate: 0.001750000000000001
+2019-12-21 23:23:05,787 train 220 [INFO][<module>] train loss: 0.22820627533827567
+2019-12-21 23:23:05,788 train 221 [INFO][<module>] train iou: 0.7038535486378034
+2019-12-21 23:23:05,981 train 171 [INFO][<module>] Epoch: 440
+2019-12-21 23:23:05,981 train 172 [INFO][<module>] Learning rate: 0.0014427516169763445
+2019-12-21 23:30:46,921 train 220 [INFO][<module>] train loss: 0.22722985241750274
+2019-12-21 23:30:46,921 train 221 [INFO][<module>] train iou: 0.7058750053775648
+2019-12-21 23:30:47,106 train 171 [INFO][<module>] Epoch: 441
+2019-12-21 23:30:47,106 train 172 [INFO][<module>] Learning rate: 0.0011580428777439975
+2019-12-21 23:38:27,901 train 220 [INFO][<module>] train loss: 0.2268042858401533
+2019-12-21 23:38:27,901 train 221 [INFO][<module>] train iou: 0.7061384806335462
+2019-12-21 23:38:28,084 train 171 [INFO][<module>] Epoch: 442
+2019-12-21 23:38:28,084 train 172 [INFO][<module>] Learning rate: 0.0008989931108291209
+2019-12-21 23:46:09,708 train 220 [INFO][<module>] train loss: 0.22535345585458608
+2019-12-21 23:46:09,708 train 221 [INFO][<module>] train iou: 0.7086497412196295
+2019-12-21 23:46:09,892 train 171 [INFO][<module>] Epoch: 443
+2019-12-21 23:46:09,892 train 172 [INFO][<module>] Learning rate: 0.0006684405196876843
+2019-12-21 23:53:53,598 train 220 [INFO][<module>] train loss: 0.22558676519177176
+2019-12-21 23:53:53,598 train 221 [INFO][<module>] train iou: 0.7081764436742725
+2019-12-21 23:53:53,796 train 171 [INFO][<module>] Epoch: 444
+2019-12-21 23:53:53,796 train 172 [INFO][<module>] Learning rate: 0.00046891108675446453
+2019-12-22 00:01:34,628 train 220 [INFO][<module>] train loss: 0.22480195544986212
+2019-12-22 00:01:34,629 train 221 [INFO][<module>] train iou: 0.7091328835528857
+2019-12-22 00:01:34,868 train 171 [INFO][<module>] Epoch: 445
+2019-12-22 00:01:34,869 train 172 [INFO][<module>] Learning rate: 0.0003025908982508966
+2019-12-22 00:09:15,381 train 220 [INFO][<module>] train loss: 0.22410024587152783
+2019-12-22 00:09:15,381 train 221 [INFO][<module>] train iou: 0.7105795004394038
+2019-12-22 00:09:15,574 train 171 [INFO][<module>] Epoch: 446
+2019-12-22 00:09:15,574 train 172 [INFO][<module>] Learning rate: 0.00017130219296696263
+2019-12-22 00:16:55,817 train 220 [INFO][<module>] train loss: 0.22373275749811822
+2019-12-22 00:16:55,817 train 221 [INFO][<module>] train iou: 0.7107660003946635
+2019-12-22 00:16:56,007 train 171 [INFO][<module>] Epoch: 447
+2019-12-22 00:16:56,008 train 172 [INFO][<module>] Learning rate: 7.648339743168009e-05
+2019-12-22 00:24:38,981 train 220 [INFO][<module>] train loss: 0.22388802167743144
+2019-12-22 00:24:38,981 train 221 [INFO][<module>] train iou: 0.7106236146820938
+2019-12-22 00:24:39,165 train 171 [INFO][<module>] Epoch: 448
+2019-12-22 00:24:39,165 train 172 [INFO][<module>] Learning rate: 1.9173366211043096e-05
+2019-12-22 00:32:42,578 train 220 [INFO][<module>] train loss: 0.22378117613720172
+2019-12-22 00:32:42,578 train 221 [INFO][<module>] train iou: 0.7109090724409718
+2019-12-22 00:32:42,762 train 171 [INFO][<module>] Epoch: 449
+2019-12-22 00:32:42,762 train 172 [INFO][<module>] Learning rate: 0.007
+2019-12-22 00:40:25,463 train 220 [INFO][<module>] train loss: 0.2372743396546303
+2019-12-22 00:40:25,463 train 221 [INFO][<module>] train iou: 0.6919494462842464
+2019-12-22 00:40:25,647 train 171 [INFO][<module>] Epoch: 450
+2019-12-22 00:40:25,647 train 172 [INFO][<module>] Learning rate: 0.006980826633788957

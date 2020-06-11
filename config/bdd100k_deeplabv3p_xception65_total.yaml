@@ -1,0 +1,23 @@
+Net:
+  enc_type: 'xception65'
+  dec_type: 'aspp'
+  output_stride: 8 
+  output_channels: 10
+Data:
+  dataset: 'bdd100k5'
+  target_size: (256,256)
+Train:
+  max_epoch: 20000000
+  batch_size: 10
+  fp16: True
+  resume: False 
+  pretrained_path: False
+  amp : True
+  parallel: True
+Loss:
+  loss_type: 'Lovasz'
+  ignore_index: 10
+Optimizer:
+  mode: 'sgd'
+  base_lr: 0.007
+  t_max: 30
